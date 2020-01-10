@@ -1,0 +1,3125 @@
+[
+	{
+		"name": "created",
+		"setting": 0,
+		"bits": 1
+	},
+	{
+		"name": "designed",
+		"setting": 0,
+		"bits": 1,
+		"offset": 1
+	},
+	{
+		"name": "facing",
+		"setting": 5,
+		"bits": 3
+	},
+	{
+		"name": "tutorial_step",
+		"setting": 6
+	},
+	{
+		"name": "fenk_gardener_multi",
+		"setting": 400,
+		"bits": 1,
+		"offset": 31,
+		"transmit": true
+	},
+	{
+		"name": "ahoy_akharanu_multi",
+		"setting": 408,
+		"bits": 4,
+		"offset": 28,
+		"transmit": true
+	},
+	{
+		"name": "ham_multi_trapdoor",
+		"setting": 174,
+		"bits": 2,
+		"offset": 14,
+		"transmit": true
+	},
+	{
+		"name": "osf_multi_landinglight_sapphire_1",
+		"setting": 417,
+		"bits": 1,
+		"offset": 25,
+		"transmit": true
+	},
+	{
+		"name": "osf_weathervane",
+		"setting": 417,
+		"bits": 1,
+		"offset": 26,
+		"transmit": true
+	},
+	{
+		"name": "mdaughter_multi_bear",
+		"setting": 423,
+		"bits": 1,
+		"offset": 25,
+		"transmit": true
+	},
+	{
+		"name": "mdaughter_multimound",
+		"setting": 423,
+		"bits": 2,
+		"offset": 29,
+		"transmit": true
+	},
+	{
+		"name": "lamp_oil_still",
+		"setting": 425,
+		"bits": 1,
+		"offset": 5,
+		"transmit": true
+	},
+	{
+		"name": "dwarfrock_multi_dondakan",
+		"setting": 433,
+		"bits": 8,
+		"transmit": true
+	},
+	{
+		"name": "dwarf_cannon_balls_flight_multi",
+		"setting": 433,
+		"bits": 1,
+		"offset": 30,
+		"transmit": true
+	},
+	{
+		"name": "feud_black_jack_seller_multi",
+		"setting": 435,
+		"bits": 6,
+		"transmit": true
+	},
+	{
+		"name": "feud_menap_boss",
+		"setting": 435,
+		"bits": 1,
+		"offset": 6,
+		"transmit": true
+	},
+	{
+		"name": "feud_menap_boss2",
+		"setting": 435,
+		"bits": 1,
+		"offset": 7,
+		"transmit": true
+	},
+	{
+		"name": "feud_bandit_boss",
+		"setting": 435,
+		"bits": 1,
+		"offset": 9,
+		"transmit": true
+	},
+	{
+		"name": "feud_arabian_guard_multi",
+		"setting": 435,
+		"bits": 2,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "feud_mayor",
+		"setting": 435,
+		"bits": 1,
+		"offset": 18,
+		"transmit": true
+	},
+	{
+		"name": "golem_portal",
+		"setting": 437,
+		"bits": 5,
+		"transmit": true
+	},
+	{
+		"name": "golem",
+		"setting": 437,
+		"bits": 3,
+		"offset": 7,
+		"transmit": true
+	},
+	{
+		"name": "golem_statuettea",
+		"setting": 437,
+		"bits": 1,
+		"offset": 10,
+		"transmit": true
+	},
+	{
+		"name": "golem_statuetteb",
+		"setting": 437,
+		"bits": 1,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "golem_statuettec",
+		"setting": 437,
+		"bits": 1,
+		"offset": 12,
+		"transmit": true
+	},
+	{
+		"name": "golem_statuetted",
+		"setting": 437,
+		"bits": 2,
+		"offset": 13,
+		"transmit": true
+	},
+	{
+		"name": "golem_demon_throne",
+		"setting": 437,
+		"bits": 1,
+		"offset": 16,
+		"transmit": true
+	},
+	{
+		"name": "golem_displaycase",
+		"setting": 437,
+		"bits": 1,
+		"offset": 17,
+		"transmit": true
+	},
+	{
+		"name": "dia_down",
+		"setting": 440,
+		"bits": 15,
+		"transmit": true
+	},
+	{
+		"name": "4d_standing_torch1",
+		"setting": 441,
+		"bits": 1,
+		"offset": 1,
+		"transmit": true
+	},
+	{
+		"name": "4d_standing_torch2",
+		"setting": 441,
+		"bits": 1,
+		"offset": 2,
+		"transmit": true
+	},
+	{
+		"name": "4d_standing_torch3",
+		"setting": 441,
+		"bits": 1,
+		"offset": 3,
+		"transmit": true
+	},
+	{
+		"name": "4d_standing_torch4",
+		"setting": 441,
+		"bits": 1,
+		"offset": 4,
+		"transmit": true
+	},
+	{
+		"name": "cave_entrance",
+		"setting": 442,
+		"bits": 5,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "troll_block_1",
+		"setting": 442,
+		"bits": 1,
+		"offset": 17,
+		"transmit": true
+	},
+	{
+		"name": "troll_block_2",
+		"setting": 442,
+		"bits": 1,
+		"offset": 18,
+		"transmit": true
+	},
+	{
+		"name": "fourdiamonds_troll_child",
+		"setting": 442,
+		"bits": 5,
+		"offset": 19,
+		"transmit": true
+	},
+	{
+		"name": "obelisk_0",
+		"setting": 440,
+		"bits": 1,
+		"offset": 15,
+		"transmit": true
+	},
+	{
+		"name": "obelisk_2",
+		"setting": 440,
+		"bits": 1,
+		"offset": 16,
+		"transmit": true
+	},
+	{
+		"name": "obelisk_1",
+		"setting": 440,
+		"bits": 1,
+		"offset": 17,
+		"transmit": true
+	},
+	{
+		"name": "obelisk",
+		"setting": 440,
+		"bits": 1,
+		"offset": 18,
+		"transmit": true
+	},
+	{
+		"name": "sword_mirror6",
+		"setting": 440,
+		"bits": 1,
+		"offset": 20,
+		"transmit": true
+	},
+	{
+		"name": "fd_shadowladder1",
+		"setting": 440,
+		"bits": 1,
+		"offset": 21,
+		"transmit": true
+	},
+	{
+		"name": "ics_little_entrance_multi",
+		"setting": 443,
+		"bits": 1,
+		"offset": 20,
+		"transmit": true
+	},
+	{
+		"name": "multi_vanstrom_stranger_entity",
+		"setting": 388,
+		"bits": 1,
+		"offset": 25,
+		"transmit": true
+	},
+	{
+		"name": "ics_little_pot_liver_multi",
+		"setting": 443,
+		"bits": 1,
+		"offset": 10,
+		"transmit": true
+	},
+	{
+		"name": "ics_little_pot_lungs_multi",
+		"setting": 443,
+		"bits": 1,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "ics_little_pot_stomach_multi",
+		"setting": 443,
+		"bits": 1,
+		"offset": 12,
+		"transmit": true
+	},
+	{
+		"name": "ics_little_pot_intestines_multi",
+		"setting": 443,
+		"bits": 1,
+		"offset": 13,
+		"transmit": true
+	},
+	{
+		"name": "ics_little_hipriest_town",
+		"setting": 443,
+		"bits": 2,
+		"offset": 14,
+		"transmit": true
+	},
+	{
+		"name": "ics_little_multi_wanderer",
+		"setting": 443,
+		"bits": 2,
+		"offset": 26,
+		"transmit": true
+	},
+	{
+		"name": "ics_little_hipriest",
+		"setting": 445,
+		"bits": 5,
+		"transmit": true
+	},
+	{
+		"name": "ics_little_spectre",
+		"setting": 446,
+		"bits": 1,
+		"offset": 4,
+		"transmit": true
+	},
+	{
+		"name": "barrows_ladder_a",
+		"setting": 452,
+		"bits": 1,
+		"offset": 6,
+		"transmit": true
+	},
+	{
+		"name": "barrows_ladder_c",
+		"setting": 452,
+		"bits": 1,
+		"offset": 7,
+		"transmit": true
+	},
+	{
+		"name": "barrows_ladder_g",
+		"setting": 452,
+		"bits": 1,
+		"offset": 8,
+		"transmit": true
+	},
+	{
+		"name": "barrows_ladder_i",
+		"setting": 452,
+		"bits": 1,
+		"offset": 9,
+		"transmit": true
+	},
+	{
+		"name": "barrows_door_a",
+		"setting": 452,
+		"bits": 1,
+		"offset": 10,
+		"transmit": true
+	},
+	{
+		"name": "barrows_door_b",
+		"setting": 452,
+		"bits": 1,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "barrows_door_c",
+		"setting": 452,
+		"bits": 1,
+		"offset": 12,
+		"transmit": true
+	},
+	{
+		"name": "barrows_door_d",
+		"setting": 452,
+		"bits": 1,
+		"offset": 13,
+		"transmit": true
+	},
+	{
+		"name": "barrows_door_e",
+		"setting": 452,
+		"bits": 1,
+		"offset": 14,
+		"transmit": true
+	},
+	{
+		"name": "barrows_door_f",
+		"setting": 452,
+		"bits": 1,
+		"offset": 15,
+		"transmit": true
+	},
+	{
+		"name": "barrows_door_g",
+		"setting": 452,
+		"bits": 1,
+		"offset": 16,
+		"transmit": true
+	},
+	{
+		"name": "barrows_door_h",
+		"setting": 452,
+		"bits": 1,
+		"offset": 17,
+		"transmit": true
+	},
+	{
+		"name": "barrows_door_i",
+		"setting": 452,
+		"bits": 1,
+		"offset": 18,
+		"transmit": true
+	},
+	{
+		"name": "barrows_door_j",
+		"setting": 452,
+		"bits": 1,
+		"offset": 19,
+		"transmit": true
+	},
+	{
+		"name": "barrows_door_k",
+		"setting": 452,
+		"bits": 1,
+		"offset": 20,
+		"transmit": true
+	},
+	{
+		"name": "barrows_door_l",
+		"setting": 452,
+		"bits": 1,
+		"offset": 21,
+		"transmit": true
+	},
+	{
+		"name": "barrows_door_m",
+		"setting": 452,
+		"bits": 1,
+		"offset": 22,
+		"transmit": true
+	},
+	{
+		"name": "barrows_door_n",
+		"setting": 452,
+		"bits": 1,
+		"offset": 23,
+		"transmit": true
+	},
+	{
+		"name": "barrows_door_o",
+		"setting": 452,
+		"bits": 1,
+		"offset": 24,
+		"transmit": true
+	},
+	{
+		"name": "barrows_door_p",
+		"setting": 452,
+		"bits": 1,
+		"offset": 25,
+		"transmit": true
+	},
+	{
+		"name": "zogre_coffin_special_entity",
+		"setting": 455,
+		"bits": 3,
+		"offset": 5,
+		"transmit": true
+	},
+	{
+		"name": "zogre_sithik_bed_entity",
+		"setting": 455,
+		"bits": 2,
+		"offset": 14,
+		"transmit": true
+	},
+	{
+		"name": "ogre_barricade",
+		"setting": 455,
+		"bits": 1,
+		"offset": 16,
+		"transmit": true
+	},
+	{
+		"name": "multi_chompybird_spitroast_entity",
+		"setting": 455,
+		"bits": 3,
+		"offset": 28,
+		"transmit": true
+	},
+	{
+		"name": "lost_tribe_cellar_wall_back",
+		"setting": 465,
+		"bits": 11,
+		"transmit": true
+	},
+	{
+		"name": "empty_string_16",
+		"setting": 465,
+		"bits": 1,
+		"offset": 19,
+		"transmit": true
+	},
+	{
+		"name": "lost_tribe_sigmund_leaving",
+		"setting": 465,
+		"bits": 1,
+		"offset": 21,
+		"transmit": true
+	},
+	{
+		"name": "drunken_dwarf",
+		"setting": 470,
+		"bits": 1,
+		"transmit": true
+	},
+	{
+		"name": "giant_dwarf_0",
+		"setting": 482,
+		"bits": 1,
+		"offset": 10,
+		"transmit": true
+	},
+	{
+		"name": "riki_the_sculptors_model",
+		"setting": 482,
+		"bits": 4,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "giant_dwarf",
+		"setting": 482,
+		"bits": 4,
+		"offset": 15,
+		"transmit": true
+	},
+	{
+		"name": "black_guard_berserker",
+		"setting": 482,
+		"bits": 1,
+		"offset": 23,
+		"transmit": true
+	},
+	{
+		"name": "trader",
+		"setting": 482,
+		"bits": 1,
+		"offset": 25,
+		"transmit": true
+	},
+	{
+		"name": "airtemple_ruined",
+		"setting": 491,
+		"bits": 1,
+		"transmit": true
+	},
+	{
+		"name": "mindtemple_ruined",
+		"setting": 491,
+		"bits": 1,
+		"offset": 1,
+		"transmit": true
+	},
+	{
+		"name": "watertemple_ruined",
+		"setting": 491,
+		"bits": 1,
+		"offset": 2,
+		"transmit": true
+	},
+	{
+		"name": "earthtemple_ruined",
+		"setting": 491,
+		"bits": 1,
+		"offset": 3,
+		"transmit": true
+	},
+	{
+		"name": "firetemple_ruined",
+		"setting": 491,
+		"bits": 1,
+		"offset": 4,
+		"transmit": true
+	},
+	{
+		"name": "bodytemple_ruined",
+		"setting": 491,
+		"bits": 1,
+		"offset": 5,
+		"transmit": true
+	},
+	{
+		"name": "cosmictemple_ruined",
+		"setting": 491,
+		"bits": 1,
+		"offset": 6,
+		"transmit": true
+	},
+	{
+		"name": "lawtemple_ruined",
+		"setting": 491,
+		"bits": 1,
+		"offset": 7,
+		"transmit": true
+	},
+	{
+		"name": "naturetemple_ruined",
+		"setting": 491,
+		"bits": 1,
+		"offset": 8,
+		"transmit": true
+	},
+	{
+		"name": "chaostemple_ruined",
+		"setting": 491,
+		"bits": 1,
+		"offset": 9,
+		"transmit": true
+	},
+	{
+		"name": "deathtemple_ruined",
+		"setting": 491,
+		"bits": 1,
+		"offset": 10,
+		"transmit": true
+	},
+	{
+		"name": "soultemple_ruined",
+		"setting": 491,
+		"bits": 1,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "bloodtemple_ruined",
+		"setting": 491,
+		"bits": 1,
+		"offset": 12,
+		"transmit": true
+	},
+	{
+		"name": "rcu_outer_multi",
+		"setting": 491,
+		"bits": 12,
+		"offset": 18,
+		"transmit": true
+	},
+	{
+		"name": "rd_statue_multi",
+		"setting": 496,
+		"bits": 12,
+		"offset": 3,
+		"transmit": true
+	},
+	{
+		"name": "rd_room2_fox_multi",
+		"setting": 498,
+		"bits": 3,
+		"transmit": true
+	},
+	{
+		"name": "rd_room2_fox_multi_right",
+		"setting": 498,
+		"bits": 4,
+		"offset": 3,
+		"transmit": true
+	},
+	{
+		"name": "rd_room2_chicken_multi",
+		"setting": 498,
+		"bits": 3,
+		"offset": 7,
+		"transmit": true
+	},
+	{
+		"name": "rd_room2_chicken_multi_right",
+		"setting": 498,
+		"bits": 4,
+		"offset": 10,
+		"transmit": true
+	},
+	{
+		"name": "rd_room2_grain_multi",
+		"setting": 498,
+		"bits": 3,
+		"offset": 14,
+		"transmit": true
+	},
+	{
+		"name": "rd_room2_grain_multi_right",
+		"setting": 498,
+		"bits": 4,
+		"offset": 17,
+		"transmit": true
+	},
+	{
+		"name": "rd_stone_door",
+		"setting": 497,
+		"bits": 4,
+		"offset": 28,
+		"transmit": true
+	},
+	{
+		"name": "energy",
+		"setting": 1,
+		"bits": 7,
+		"transmit": true
+	},
+	{
+		"name": "address",
+		"setting": 2,
+		"transmit": true
+	},
+	{
+		"name": "public_setting",
+		"setting": 3,
+		"bits": 2,
+		"transmit": true
+	},
+	{
+		"name": "private_setting",
+		"setting": 3,
+		"bits": 2,
+		"offset": 2,
+		"transmit": true
+	},
+	{
+		"name": "trade_setting",
+		"setting": 3,
+		"bits": 2,
+		"offset": 4,
+		"transmit": true
+	},
+	{
+		"name": "cheater",
+		"setting": 4,
+		"bits": 1,
+		"transmit": true
+	},
+	{
+		"name": "tutorial_progress",
+		"setting": 406,
+		"transmit": true
+	},
+	{
+		"name": "misc_option0",
+		"setting": 261,
+		"transmit": true
+	},
+	{
+		"name": "misc_option1",
+		"setting": 262,
+		"transmit": true
+	},
+	{
+		"name": "bank_withdraw_mode",
+		"setting": 115,
+		"transmit": true
+	},
+	{
+		"name": "bank_rearrange_mode",
+		"setting": 304,
+		"transmit": true
+	},
+	{
+		"name": "attack_style",
+		"setting": 43,
+		"transmit": true
+	},
+	{
+		"name": "auto_cast",
+		"setting": 108,
+		"transmit": true
+	},
+	{
+		"name": "special_energy",
+		"setting": 300,
+		"transmit": true
+	},
+	{
+		"name": "special_attack_active",
+		"setting": 301,
+		"transmit": true
+	},
+	{
+		"name": "screen_brightness",
+		"setting": 166,
+		"transmit": true
+	},
+	{
+		"name": "music_volume",
+		"setting": 168,
+		"transmit": true
+	},
+	{
+		"name": "effect_volume",
+		"setting": 169,
+		"transmit": true
+	},
+	{
+		"name": "mouse_buttons",
+		"setting": 170,
+		"transmit": true
+	},
+	{
+		"name": "chat_effects",
+		"setting": 171,
+		"transmit": true
+	},
+	{
+		"name": "split_private_chat",
+		"setting": 287,
+		"transmit": true
+	},
+	{
+		"name": "accept_aid",
+		"setting": 427,
+		"transmit": true
+	},
+	{
+		"name": "music_mode",
+		"setting": 18,
+		"transmit": true
+	},
+	{
+		"name": "music_loop",
+		"setting": 19,
+		"transmit": true
+	},
+	{
+		"name": "song_7th_realm",
+		"setting": 346,
+		"bits": 1,
+		"offset": 29,
+		"transmit": true
+	},
+	{
+		"name": "song_adventure",
+		"setting": 20,
+		"bits": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_alone",
+		"setting": 20,
+		"bits": 1,
+		"offset": 2,
+		"transmit": true
+	},
+	{
+		"name": "song_al_kharid",
+		"setting": 20,
+		"bits": 1,
+		"offset": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_ambient_jungle",
+		"setting": 20,
+		"bits": 1,
+		"offset": 3,
+		"transmit": true
+	},
+	{
+		"name": "song_anywhere",
+		"setting": 311,
+		"bits": 1,
+		"offset": 16,
+		"transmit": true
+	},
+	{
+		"name": "song_arabian_2",
+		"setting": 20,
+		"bits": 1,
+		"offset": 5,
+		"transmit": true
+	},
+	{
+		"name": "song_arabian_3",
+		"setting": 20,
+		"bits": 1,
+		"offset": 6,
+		"transmit": true
+	},
+	{
+		"name": "song_arabian",
+		"setting": 20,
+		"bits": 1,
+		"offset": 4,
+		"transmit": true
+	},
+	{
+		"name": "song_arabique",
+		"setting": 20,
+		"bits": 1,
+		"offset": 7,
+		"transmit": true
+	},
+	{
+		"name": "song_army_of_darkness",
+		"setting": 20,
+		"bits": 1,
+		"offset": 8,
+		"transmit": true
+	},
+	{
+		"name": "song_arrival",
+		"setting": 20,
+		"bits": 1,
+		"offset": 9,
+		"transmit": true
+	},
+	{
+		"name": "song_artistry",
+		"setting": 298,
+		"bits": 1,
+		"offset": 8,
+		"transmit": true
+	},
+	{
+		"name": "song_attack_1",
+		"setting": 20,
+		"bits": 1,
+		"offset": 10,
+		"transmit": true
+	},
+	{
+		"name": "song_attack_2",
+		"setting": 20,
+		"bits": 1,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "song_attack_3",
+		"setting": 20,
+		"bits": 1,
+		"offset": 12,
+		"transmit": true
+	},
+	{
+		"name": "song_attack_4",
+		"setting": 20,
+		"bits": 1,
+		"offset": 13,
+		"transmit": true
+	},
+	{
+		"name": "song_attack_5",
+		"setting": 20,
+		"bits": 1,
+		"offset": 14,
+		"transmit": true
+	},
+	{
+		"name": "song_attack_6",
+		"setting": 20,
+		"bits": 1,
+		"offset": 15,
+		"transmit": true
+	},
+	{
+		"name": "song_attention",
+		"setting": 20,
+		"bits": 1,
+		"offset": 16,
+		"transmit": true
+	},
+	{
+		"name": "song_autumn_voyage",
+		"setting": 20,
+		"bits": 1,
+		"offset": 17,
+		"transmit": true
+	},
+	{
+		"name": "song_aztec",
+		"setting": 298,
+		"bits": 1,
+		"offset": 9,
+		"transmit": true
+	},
+	{
+		"name": "song_background",
+		"setting": 20,
+		"bits": 1,
+		"offset": 18,
+		"transmit": true
+	},
+	{
+		"name": "song_ballad_of_enchantment",
+		"setting": 20,
+		"bits": 1,
+		"offset": 19,
+		"transmit": true
+	},
+	{
+		"name": "song_bandit_camp",
+		"setting": 298,
+		"bits": 1,
+		"offset": 22,
+		"transmit": true
+	},
+	{
+		"name": "song_barbarianism",
+		"setting": 346,
+		"bits": 1,
+		"offset": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_barking_mad",
+		"setting": 346,
+		"bits": 1,
+		"offset": 18,
+		"transmit": true
+	},
+	{
+		"name": "song_baroque",
+		"setting": 20,
+		"bits": 1,
+		"offset": 20,
+		"transmit": true
+	},
+	{
+		"name": "song_beyond",
+		"setting": 20,
+		"bits": 1,
+		"offset": 21,
+		"transmit": true
+	},
+	{
+		"name": "song_big_chords",
+		"setting": 20,
+		"bits": 1,
+		"offset": 22,
+		"transmit": true
+	},
+	{
+		"name": "song_body_parts",
+		"setting": 346,
+		"bits": 1,
+		"offset": 14,
+		"transmit": true
+	},
+	{
+		"name": "song_bone_dance",
+		"setting": 25,
+		"bits": 1,
+		"offset": 23,
+		"transmit": true
+	},
+	{
+		"name": "song_bone_dry",
+		"setting": 298,
+		"bits": 1,
+		"offset": 24,
+		"transmit": true
+	},
+	{
+		"name": "song_book_of_spells",
+		"setting": 20,
+		"bits": 1,
+		"offset": 23,
+		"transmit": true
+	},
+	{
+		"name": "song_borderland",
+		"setting": 311,
+		"bits": 1,
+		"offset": 9,
+		"transmit": true
+	},
+	{
+		"name": "song_breeze",
+		"setting": 298,
+		"bits": 1,
+		"offset": 2,
+		"transmit": true
+	},
+	{
+		"name": "song_camelot",
+		"setting": 20,
+		"bits": 1,
+		"offset": 24,
+		"transmit": true
+	},
+	{
+		"name": "song_castlewars",
+		"setting": 311,
+		"bits": 1,
+		"offset": 23,
+		"transmit": true
+	},
+	{
+		"name": "song_cavern",
+		"setting": 20,
+		"bits": 1,
+		"offset": 26,
+		"transmit": true
+	},
+	{
+		"name": "song_cave_background",
+		"setting": 20,
+		"bits": 1,
+		"offset": 25,
+		"transmit": true
+	},
+	{
+		"name": "song_cave_of_beasts",
+		"setting": 346,
+		"bits": 1,
+		"offset": 24,
+		"transmit": true
+	},
+	{
+		"name": "song_cave_of_the_goblins",
+		"setting": 414,
+		"bits": 1,
+		"offset": 16,
+		"transmit": true
+	},
+	{
+		"name": "song_cellar_song",
+		"setting": 25,
+		"bits": 1,
+		"offset": 13,
+		"transmit": true
+	},
+	{
+		"name": "song_chain_of_command",
+		"setting": 20,
+		"bits": 1,
+		"offset": 27,
+		"transmit": true
+	},
+	{
+		"name": "song_chamber",
+		"setting": 311,
+		"bits": 1,
+		"offset": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_chompy_hunt",
+		"setting": 25,
+		"bits": 1,
+		"offset": 18,
+		"transmit": true
+	},
+	{
+		"name": "song_city_of_the_dead",
+		"setting": 414,
+		"bits": 1,
+		"offset": 12,
+		"transmit": true
+	},
+	{
+		"name": "song_claustrophobia",
+		"setting": 414,
+		"bits": 1,
+		"offset": 3,
+		"transmit": true
+	},
+	{
+		"name": "song_close_quarters",
+		"setting": 25,
+		"bits": 1,
+		"offset": 15,
+		"transmit": true
+	},
+	{
+		"name": "song_competition",
+		"setting": 298,
+		"bits": 1,
+		"offset": 25,
+		"transmit": true
+	},
+	{
+		"name": "song_complication",
+		"setting": 346,
+		"bits": 1,
+		"offset": 2,
+		"transmit": true
+	},
+	{
+		"name": "song_contest",
+		"setting": 298,
+		"bits": 1,
+		"offset": 16,
+		"transmit": true
+	},
+	{
+		"name": "song_courage",
+		"setting": 346,
+		"bits": 1,
+		"offset": 4,
+		"transmit": true
+	},
+	{
+		"name": "song_crystal_castle",
+		"setting": 298,
+		"bits": 1,
+		"offset": 18,
+		"transmit": true
+	},
+	{
+		"name": "song_crystal_cave",
+		"setting": 20,
+		"bits": 1,
+		"offset": 28,
+		"transmit": true
+	},
+	{
+		"name": "song_crystal_sword",
+		"setting": 20,
+		"bits": 1,
+		"offset": 29,
+		"transmit": true
+	},
+	{
+		"name": "song_cursed",
+		"setting": 25,
+		"bits": 1,
+		"offset": 26,
+		"transmit": true
+	},
+	{
+		"name": "song_dance_of_the_undead",
+		"setting": 414,
+		"bits": 1,
+		"offset": 10,
+		"transmit": true
+	},
+	{
+		"name": "song_dangerous",
+		"setting": 20,
+		"bits": 1,
+		"offset": 30,
+		"transmit": true
+	},
+	{
+		"name": "song_dangerous_road",
+		"setting": 346,
+		"bits": 1,
+		"offset": 7,
+		"transmit": true
+	},
+	{
+		"name": "song_dangerous_way",
+		"setting": 414,
+		"bits": 1,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "song_dark",
+		"setting": 20,
+		"bits": 1,
+		"offset": 31,
+		"transmit": true
+	},
+	{
+		"name": "song_deadlands",
+		"setting": 311,
+		"bits": 1,
+		"offset": 6,
+		"transmit": true
+	},
+	{
+		"name": "song_dead_quiet",
+		"setting": 25,
+		"bits": 1,
+		"offset": 21,
+		"transmit": true
+	},
+	{
+		"name": "song_deep_down",
+		"setting": 311,
+		"bits": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_deep_wildy",
+		"setting": 21,
+		"bits": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_desert_voyage",
+		"setting": 21,
+		"bits": 1,
+		"offset": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_doorways",
+		"setting": 21,
+		"bits": 1,
+		"offset": 2,
+		"transmit": true
+	},
+	{
+		"name": "song_down_below",
+		"setting": 346,
+		"bits": 1,
+		"offset": 28,
+		"transmit": true
+	},
+	{
+		"name": "song_down_to_earth",
+		"setting": 346,
+		"bits": 1,
+		"offset": 3,
+		"transmit": true
+	},
+	{
+		"name": "song_dragontooth_island",
+		"setting": 346,
+		"bits": 1,
+		"offset": 25,
+		"transmit": true
+	},
+	{
+		"name": "song_dream",
+		"setting": 21,
+		"bits": 1,
+		"offset": 3,
+		"transmit": true
+	},
+	{
+		"name": "song_duel_arena",
+		"setting": 25,
+		"bits": 1,
+		"offset": 4,
+		"transmit": true
+	},
+	{
+		"name": "song_dunjun",
+		"setting": 21,
+		"bits": 1,
+		"offset": 4,
+		"transmit": true
+	},
+	{
+		"name": "song_dynasty",
+		"setting": 346,
+		"bits": 1,
+		"offset": 19,
+		"transmit": true
+	},
+	{
+		"name": "song_egypt",
+		"setting": 21,
+		"bits": 1,
+		"offset": 5,
+		"transmit": true
+	},
+	{
+		"name": "song_elven_mist",
+		"setting": 298,
+		"bits": 1,
+		"offset": 10,
+		"transmit": true
+	},
+	{
+		"name": "song_emotion",
+		"setting": 21,
+		"bits": 1,
+		"offset": 6,
+		"transmit": true
+	},
+	{
+		"name": "song_emperor",
+		"setting": 21,
+		"bits": 1,
+		"offset": 7,
+		"transmit": true
+	},
+	{
+		"name": "song_escape",
+		"setting": 25,
+		"bits": 1,
+		"offset": 16,
+		"transmit": true
+	},
+	{
+		"name": "song_etceteria",
+		"setting": 311,
+		"bits": 1,
+		"offset": 3,
+		"transmit": true
+	},
+	{
+		"name": "song_everywhere",
+		"setting": 298,
+		"bits": 1,
+		"offset": 27,
+		"transmit": true
+	},
+	{
+		"name": "song_expanse",
+		"setting": 21,
+		"bits": 1,
+		"offset": 8,
+		"transmit": true
+	},
+	{
+		"name": "song_expecting",
+		"setting": 21,
+		"bits": 1,
+		"offset": 9,
+		"transmit": true
+	},
+	{
+		"name": "song_expedition",
+		"setting": 21,
+		"bits": 1,
+		"offset": 10,
+		"transmit": true
+	},
+	{
+		"name": "song_exposed",
+		"setting": 298,
+		"bits": 1,
+		"offset": 28,
+		"transmit": true
+	},
+	{
+		"name": "song_faerie",
+		"setting": 21,
+		"bits": 1,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "song_faithless",
+		"setting": 346,
+		"bits": 1,
+		"offset": 9,
+		"transmit": true
+	},
+	{
+		"name": "song_fanfare",
+		"setting": 21,
+		"bits": 1,
+		"offset": 12,
+		"transmit": true
+	},
+	{
+		"name": "song_fanfare_2",
+		"setting": 25,
+		"bits": 1,
+		"offset": 2,
+		"transmit": true
+	},
+	{
+		"name": "song_fanfare_3",
+		"setting": 21,
+		"bits": 1,
+		"offset": 13,
+		"transmit": true
+	},
+	{
+		"name": "song_fenkenstrains_refrain",
+		"setting": 346,
+		"bits": 1,
+		"offset": 15,
+		"transmit": true
+	},
+	{
+		"name": "song_find_my_way",
+		"setting": 311,
+		"bits": 1,
+		"offset": 22,
+		"transmit": true
+	},
+	{
+		"name": "song_fishing",
+		"setting": 21,
+		"bits": 1,
+		"offset": 14,
+		"transmit": true
+	},
+	{
+		"name": "song_flute_salad",
+		"setting": 21,
+		"bits": 1,
+		"offset": 15,
+		"transmit": true
+	},
+	{
+		"name": "song_forbidden",
+		"setting": 25,
+		"bits": 1,
+		"offset": 25,
+		"transmit": true
+	},
+	{
+		"name": "song_forest",
+		"setting": 298,
+		"bits": 1,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "song_forever",
+		"setting": 21,
+		"bits": 1,
+		"offset": 16,
+		"transmit": true
+	},
+	{
+		"name": "song_forgotten",
+		"setting": 414,
+		"bits": 1,
+		"offset": 8,
+		"transmit": true
+	},
+	{
+		"name": "song_frostbite",
+		"setting": 311,
+		"bits": 1,
+		"offset": 12,
+		"transmit": true
+	},
+	{
+		"name": "song_fruits_de_mer",
+		"setting": 346,
+		"bits": 1,
+		"offset": 17,
+		"transmit": true
+	},
+	{
+		"name": "song_gaol",
+		"setting": 21,
+		"bits": 1,
+		"offset": 17,
+		"transmit": true
+	},
+	{
+		"name": "song_garden",
+		"setting": 21,
+		"bits": 1,
+		"offset": 18,
+		"transmit": true
+	},
+	{
+		"name": "song_gnome",
+		"setting": 21,
+		"bits": 1,
+		"offset": 23,
+		"transmit": true
+	},
+	{
+		"name": "song_gnomeball",
+		"setting": 21,
+		"bits": 1,
+		"offset": 24,
+		"transmit": true
+	},
+	{
+		"name": "song_gnome_king",
+		"setting": 21,
+		"bits": 1,
+		"offset": 19,
+		"transmit": true
+	},
+	{
+		"name": "song_gnome_theme",
+		"setting": 21,
+		"bits": 1,
+		"offset": 20,
+		"transmit": true
+	},
+	{
+		"name": "song_gnome_village",
+		"setting": 21,
+		"bits": 1,
+		"offset": 21,
+		"transmit": true
+	},
+	{
+		"name": "song_gnome_village_2",
+		"setting": 21,
+		"bits": 1,
+		"offset": 22,
+		"transmit": true
+	},
+	{
+		"name": "song_goblin_game",
+		"setting": 311,
+		"bits": 1,
+		"offset": 28,
+		"transmit": true
+	},
+	{
+		"name": "song_greatness",
+		"setting": 21,
+		"bits": 1,
+		"offset": 25,
+		"transmit": true
+	},
+	{
+		"name": "song_grotto",
+		"setting": 298,
+		"bits": 1,
+		"offset": 6,
+		"transmit": true
+	},
+	{
+		"name": "song_grumpy",
+		"setting": 25,
+		"bits": 1,
+		"offset": 17,
+		"transmit": true
+	},
+	{
+		"name": "song_harmony",
+		"setting": 21,
+		"bits": 1,
+		"offset": 26,
+		"transmit": true
+	},
+	{
+		"name": "song_harmony_2",
+		"setting": 25,
+		"bits": 1,
+		"offset": 7,
+		"transmit": true
+	},
+	{
+		"name": "song_haunted_mine",
+		"setting": 298,
+		"bits": 1,
+		"offset": 30,
+		"transmit": true
+	},
+	{
+		"name": "song_heart_and_mind",
+		"setting": 25,
+		"bits": 1,
+		"offset": 14,
+		"transmit": true
+	},
+	{
+		"name": "song_hells_bells",
+		"setting": 311,
+		"bits": 1,
+		"offset": 30,
+		"transmit": true
+	},
+	{
+		"name": "song_hermit",
+		"setting": 25,
+		"bits": 1,
+		"offset": 31,
+		"transmit": true
+	},
+	{
+		"name": "song_high_seas",
+		"setting": 21,
+		"bits": 1,
+		"offset": 27,
+		"transmit": true
+	},
+	{
+		"name": "song_horizon",
+		"setting": 21,
+		"bits": 1,
+		"offset": 28,
+		"transmit": true
+	},
+	{
+		"name": "song_hypnotized",
+		"setting": 414,
+		"bits": 1,
+		"offset": 13,
+		"transmit": true
+	},
+	{
+		"name": "song_iban",
+		"setting": 21,
+		"bits": 1,
+		"offset": 29,
+		"transmit": true
+	},
+	{
+		"name": "song_ice_melody",
+		"setting": 25,
+		"bits": 1,
+		"offset": 5,
+		"transmit": true
+	},
+	{
+		"name": "song_insect_queen",
+		"setting": 298,
+		"bits": 1,
+		"offset": 20,
+		"transmit": true
+	},
+	{
+		"name": "song_inspiration",
+		"setting": 21,
+		"bits": 1,
+		"offset": 31,
+		"transmit": true
+	},
+	{
+		"name": "song_into_the_abyss",
+		"setting": 414,
+		"bits": 1,
+		"offset": 29,
+		"transmit": true
+	},
+	{
+		"name": "song_intrepid",
+		"setting": 22,
+		"bits": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_in_between",
+		"setting": 414,
+		"bits": 1,
+		"offset": 2,
+		"transmit": true
+	},
+	{
+		"name": "song_in_the_manor",
+		"setting": 21,
+		"bits": 1,
+		"offset": 30,
+		"transmit": true
+	},
+	{
+		"name": "song_island_life",
+		"setting": 311,
+		"bits": 1,
+		"offset": 18,
+		"transmit": true
+	},
+	{
+		"name": "song_jollyr",
+		"setting": 22,
+		"bits": 1,
+		"offset": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_jungle_island",
+		"setting": 22,
+		"bits": 1,
+		"offset": 2,
+		"transmit": true
+	},
+	{
+		"name": "song_jungly_1",
+		"setting": 22,
+		"bits": 1,
+		"offset": 3,
+		"transmit": true
+	},
+	{
+		"name": "song_jungly_2",
+		"setting": 22,
+		"bits": 1,
+		"offset": 4,
+		"transmit": true
+	},
+	{
+		"name": "song_jungly_3",
+		"setting": 22,
+		"bits": 1,
+		"offset": 5,
+		"transmit": true
+	},
+	{
+		"name": "song_karamja_jam",
+		"setting": 346,
+		"bits": 1,
+		"offset": 30,
+		"transmit": true
+	},
+	{
+		"name": "song_kingdom",
+		"setting": 25,
+		"bits": 1,
+		"offset": 30,
+		"transmit": true
+	},
+	{
+		"name": "song_knightly",
+		"setting": 22,
+		"bits": 1,
+		"offset": 6,
+		"transmit": true
+	},
+	{
+		"name": "song_lair",
+		"setting": 311,
+		"bits": 1,
+		"offset": 5,
+		"transmit": true
+	},
+	{
+		"name": "song_landlubber",
+		"setting": 25,
+		"bits": 1,
+		"offset": 9,
+		"transmit": true
+	},
+	{
+		"name": "song_land_of_the_dwarves",
+		"setting": 414,
+		"bits": 1,
+		"offset": 22,
+		"transmit": true
+	},
+	{
+		"name": "song_lasting",
+		"setting": 22,
+		"bits": 1,
+		"offset": 7,
+		"transmit": true
+	},
+	{
+		"name": "song_legend",
+		"setting": 311,
+		"bits": 1,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "song_legion",
+		"setting": 22,
+		"bits": 1,
+		"offset": 8,
+		"transmit": true
+	},
+	{
+		"name": "song_lighthouse",
+		"setting": 311,
+		"bits": 1,
+		"offset": 27,
+		"transmit": true
+	},
+	{
+		"name": "song_lightness",
+		"setting": 22,
+		"bits": 1,
+		"offset": 9,
+		"transmit": true
+	},
+	{
+		"name": "song_lightwalk",
+		"setting": 22,
+		"bits": 1,
+		"offset": 10,
+		"transmit": true
+	},
+	{
+		"name": "song_lonesome",
+		"setting": 24,
+		"bits": 1,
+		"offset": 21,
+		"transmit": true
+	},
+	{
+		"name": "song_long_ago",
+		"setting": 22,
+		"bits": 1,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "song_long_way_home",
+		"setting": 22,
+		"bits": 1,
+		"offset": 12,
+		"transmit": true
+	},
+	{
+		"name": "song_lost_soul",
+		"setting": 298,
+		"bits": 1,
+		"offset": 12,
+		"transmit": true
+	},
+	{
+		"name": "song_lullaby",
+		"setting": 22,
+		"bits": 1,
+		"offset": 13,
+		"transmit": true
+	},
+	{
+		"name": "song_mad_eadgar",
+		"setting": 298,
+		"bits": 1,
+		"offset": 21,
+		"transmit": true
+	},
+	{
+		"name": "song_mage_arena",
+		"setting": 22,
+		"bits": 1,
+		"offset": 14,
+		"transmit": true
+	},
+	{
+		"name": "song_magical_journey",
+		"setting": 22,
+		"bits": 1,
+		"offset": 16,
+		"transmit": true
+	},
+	{
+		"name": "song_magic_dance",
+		"setting": 22,
+		"bits": 1,
+		"offset": 15,
+		"transmit": true
+	},
+	{
+		"name": "song_march",
+		"setting": 22,
+		"bits": 1,
+		"offset": 17,
+		"transmit": true
+	},
+	{
+		"name": "song_marooned",
+		"setting": 311,
+		"bits": 1,
+		"offset": 17,
+		"transmit": true
+	},
+	{
+		"name": "song_marzipan",
+		"setting": 298,
+		"bits": 1,
+		"offset": 19,
+		"transmit": true
+	},
+	{
+		"name": "song_masquerade",
+		"setting": 346,
+		"bits": 1,
+		"offset": 12,
+		"transmit": true
+	},
+	{
+		"name": "song_mausoleum",
+		"setting": 25,
+		"bits": 1,
+		"offset": 24,
+		"transmit": true
+	},
+	{
+		"name": "song_medieval",
+		"setting": 22,
+		"bits": 1,
+		"offset": 18,
+		"transmit": true
+	},
+	{
+		"name": "song_mellow",
+		"setting": 22,
+		"bits": 1,
+		"offset": 19,
+		"transmit": true
+	},
+	{
+		"name": "song_melodrama",
+		"setting": 311,
+		"bits": 1,
+		"offset": 24,
+		"transmit": true
+	},
+	{
+		"name": "song_meridian",
+		"setting": 298,
+		"bits": 1,
+		"offset": 13,
+		"transmit": true
+	},
+	{
+		"name": "song_miles_away",
+		"setting": 22,
+		"bits": 1,
+		"offset": 20,
+		"transmit": true
+	},
+	{
+		"name": "song_miracle_dance",
+		"setting": 22,
+		"bits": 1,
+		"offset": 21,
+		"transmit": true
+	},
+	{
+		"name": "song_mirage",
+		"setting": 414,
+		"bits": 1,
+		"offset": 15,
+		"transmit": true
+	},
+	{
+		"name": "song_miscellania",
+		"setting": 311,
+		"bits": 1,
+		"offset": 2,
+		"transmit": true
+	},
+	{
+		"name": "song_monarch_waltz",
+		"setting": 22,
+		"bits": 1,
+		"offset": 22,
+		"transmit": true
+	},
+	{
+		"name": "song_monkey_madness",
+		"setting": 311,
+		"bits": 1,
+		"offset": 15,
+		"transmit": true
+	},
+	{
+		"name": "song_monster_melee",
+		"setting": 346,
+		"bits": 1,
+		"offset": 16,
+		"transmit": true
+	},
+	{
+		"name": "song_moody",
+		"setting": 22,
+		"bits": 1,
+		"offset": 23,
+		"transmit": true
+	},
+	{
+		"name": "song_morytania",
+		"setting": 25,
+		"bits": 1,
+		"offset": 20,
+		"transmit": true
+	},
+	{
+		"name": "song_narnodes_theme",
+		"setting": 346,
+		"bits": 1,
+		"offset": 18,
+		"transmit": true
+	},
+	{
+		"name": "song_natural",
+		"setting": 298,
+		"bits": 1,
+		"offset": 5,
+		"transmit": true
+	},
+	{
+		"name": "song_neverland",
+		"setting": 22,
+		"bits": 1,
+		"offset": 24,
+		"transmit": true
+	},
+	{
+		"name": "song_nightfall",
+		"setting": 22,
+		"bits": 1,
+		"offset": 26,
+		"transmit": true
+	},
+	{
+		"name": "song_nomad",
+		"setting": 25,
+		"bits": 1,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "song_oriental",
+		"setting": 22,
+		"bits": 1,
+		"offset": 27,
+		"transmit": true
+	},
+	{
+		"name": "song_out_of_the_deep",
+		"setting": 311,
+		"bits": 1,
+		"offset": 29,
+		"transmit": true
+	},
+	{
+		"name": "song_overpass",
+		"setting": 298,
+		"bits": 1,
+		"offset": 15,
+		"transmit": true
+	},
+	{
+		"name": "song_overture",
+		"setting": 22,
+		"bits": 1,
+		"offset": 28,
+		"transmit": true
+	},
+	{
+		"name": "song_parade",
+		"setting": 22,
+		"bits": 1,
+		"offset": 29,
+		"transmit": true
+	},
+	{
+		"name": "song_pathways",
+		"setting": 346,
+		"bits": 1,
+		"offset": 31,
+		"transmit": true
+	},
+	{
+		"name": "song_path_of_peril",
+		"setting": 414,
+		"bits": 1,
+		"offset": 19,
+		"transmit": true
+	},
+	{
+		"name": "song_phasmatys",
+		"setting": 346,
+		"bits": 1,
+		"offset": 21,
+		"transmit": true
+	},
+	{
+		"name": "song_pirates_of_peril",
+		"setting": 346,
+		"bits": 1,
+		"offset": 6,
+		"transmit": true
+	},
+	{
+		"name": "song_principality",
+		"setting": 25,
+		"bits": 1,
+		"offset": 28,
+		"transmit": true
+	},
+	{
+		"name": "song_quest",
+		"setting": 22,
+		"bits": 1,
+		"offset": 30,
+		"transmit": true
+	},
+	{
+		"name": "song_ready_for_battle",
+		"setting": 311,
+		"bits": 1,
+		"offset": 25,
+		"transmit": true
+	},
+	{
+		"name": "song_regal",
+		"setting": 22,
+		"bits": 1,
+		"offset": 31,
+		"transmit": true
+	},
+	{
+		"name": "song_reggae",
+		"setting": 23,
+		"bits": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_reggae_2",
+		"setting": 23,
+		"bits": 1,
+		"offset": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_rellekka",
+		"setting": 311,
+		"bits": 1,
+		"offset": 7,
+		"transmit": true
+	},
+	{
+		"name": "song_righteousness",
+		"setting": 298,
+		"bits": 1,
+		"offset": 31,
+		"transmit": true
+	},
+	{
+		"name": "song_riverside",
+		"setting": 23,
+		"bits": 1,
+		"offset": 2,
+		"transmit": true
+	},
+	{
+		"name": "song_romancing_the_crone",
+		"setting": 346,
+		"bits": 1,
+		"offset": 8,
+		"transmit": true
+	},
+	{
+		"name": "song_romper_chomper",
+		"setting": 414,
+		"bits": 1,
+		"offset": 24,
+		"transmit": true
+	},
+	{
+		"name": "song_royale",
+		"setting": 23,
+		"bits": 1,
+		"offset": 3,
+		"transmit": true
+	},
+	{
+		"name": "song_rune_essence",
+		"setting": 23,
+		"bits": 1,
+		"offset": 4,
+		"transmit": true
+	},
+	{
+		"name": "song_sad_meadow",
+		"setting": 23,
+		"bits": 1,
+		"offset": 5,
+		"transmit": true
+	},
+	{
+		"name": "song_saga",
+		"setting": 311,
+		"bits": 1,
+		"offset": 8,
+		"transmit": true
+	},
+	{
+		"name": "song_sarcophagus",
+		"setting": 346,
+		"bits": 1,
+		"offset": 27,
+		"transmit": true
+	},
+	{
+		"name": "song_scape_cave",
+		"setting": 23,
+		"bits": 1,
+		"offset": 6,
+		"transmit": true
+	},
+	{
+		"name": "song_scape_sad",
+		"setting": 23,
+		"bits": 1,
+		"offset": 8,
+		"transmit": true
+	},
+	{
+		"name": "song_scape_soft",
+		"setting": 24,
+		"bits": 1,
+		"offset": 31,
+		"transmit": true
+	},
+	{
+		"name": "song_scape_wild",
+		"setting": 23,
+		"bits": 1,
+		"offset": 9,
+		"transmit": true
+	},
+	{
+		"name": "song_scarab",
+		"setting": 346,
+		"bits": 1,
+		"offset": 26,
+		"transmit": true
+	},
+	{
+		"name": "song_sea_shanty",
+		"setting": 23,
+		"bits": 1,
+		"offset": 10,
+		"transmit": true
+	},
+	{
+		"name": "song_sea_shanty_2",
+		"setting": 23,
+		"bits": 1,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "song_serenade",
+		"setting": 23,
+		"bits": 1,
+		"offset": 12,
+		"transmit": true
+	},
+	{
+		"name": "song_serene",
+		"setting": 23,
+		"bits": 1,
+		"offset": 13,
+		"transmit": true
+	},
+	{
+		"name": "song_settlement",
+		"setting": 346,
+		"bits": 1,
+		"offset": 23,
+		"transmit": true
+	},
+	{
+		"name": "song_shadowland",
+		"setting": 311,
+		"bits": 1,
+		"offset": 4,
+		"transmit": true
+	},
+	{
+		"name": "song_shine",
+		"setting": 23,
+		"bits": 1,
+		"offset": 14,
+		"transmit": true
+	},
+	{
+		"name": "song_shining",
+		"setting": 25,
+		"bits": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_shipwrecked",
+		"setting": 346,
+		"bits": 1,
+		"offset": 20,
+		"transmit": true
+	},
+	{
+		"name": "song_showdown",
+		"setting": 311,
+		"bits": 1,
+		"offset": 21,
+		"transmit": true
+	},
+	{
+		"name": "song_sojourn",
+		"setting": 298,
+		"bits": 1,
+		"offset": 17,
+		"transmit": true
+	},
+	{
+		"name": "song_soundscape",
+		"setting": 23,
+		"bits": 1,
+		"offset": 15,
+		"transmit": true
+	},
+	{
+		"name": "song_sphinx",
+		"setting": 414,
+		"bits": 1,
+		"offset": 14,
+		"transmit": true
+	},
+	{
+		"name": "song_spirit",
+		"setting": 23,
+		"bits": 1,
+		"offset": 16,
+		"transmit": true
+	},
+	{
+		"name": "song_splendour",
+		"setting": 23,
+		"bits": 1,
+		"offset": 17,
+		"transmit": true
+	},
+	{
+		"name": "song_spooky",
+		"setting": 23,
+		"bits": 1,
+		"offset": 18,
+		"transmit": true
+	},
+	{
+		"name": "song_spooky_2",
+		"setting": 298,
+		"bits": 1,
+		"offset": 26,
+		"transmit": true
+	},
+	{
+		"name": "song_spooky_jungle",
+		"setting": 23,
+		"bits": 1,
+		"offset": 19,
+		"transmit": true
+	},
+	{
+		"name": "song_stagnant",
+		"setting": 298,
+		"bits": 1,
+		"offset": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_starlight",
+		"setting": 23,
+		"bits": 1,
+		"offset": 20,
+		"transmit": true
+	},
+	{
+		"name": "song_start",
+		"setting": 23,
+		"bits": 1,
+		"offset": 21,
+		"transmit": true
+	},
+	{
+		"name": "song_stillness",
+		"setting": 311,
+		"bits": 1,
+		"offset": 26,
+		"transmit": true
+	},
+	{
+		"name": "song_still_night",
+		"setting": 23,
+		"bits": 1,
+		"offset": 22,
+		"transmit": true
+	},
+	{
+		"name": "song_stranded",
+		"setting": 311,
+		"bits": 1,
+		"offset": 10,
+		"transmit": true
+	},
+	{
+		"name": "song_stratosphere",
+		"setting": 298,
+		"bits": 1,
+		"offset": 3,
+		"transmit": true
+	},
+	{
+		"name": "song_sunburn",
+		"setting": 298,
+		"bits": 1,
+		"offset": 23,
+		"transmit": true
+	},
+	{
+		"name": "song_superstition",
+		"setting": 346,
+		"bits": 1,
+		"offset": 5,
+		"transmit": true
+	},
+	{
+		"name": "song_suspicious",
+		"setting": 311,
+		"bits": 1,
+		"offset": 20,
+		"transmit": true
+	},
+	{
+		"name": "song_tale_of_keldagrim",
+		"setting": 414,
+		"bits": 1,
+		"offset": 21,
+		"transmit": true
+	},
+	{
+		"name": "song_talking_forest",
+		"setting": 23,
+		"bits": 1,
+		"offset": 23,
+		"transmit": true
+	},
+	{
+		"name": "song_tears_of_guthix",
+		"setting": 414,
+		"bits": 1,
+		"offset": 23,
+		"transmit": true
+	},
+	{
+		"name": "song_technology",
+		"setting": 311,
+		"bits": 1,
+		"offset": 14,
+		"transmit": true
+	},
+	{
+		"name": "song_temple",
+		"setting": 311,
+		"bits": 1,
+		"offset": 19,
+		"transmit": true
+	},
+	{
+		"name": "song_theme",
+		"setting": 23,
+		"bits": 1,
+		"offset": 27,
+		"transmit": true
+	},
+	{
+		"name": "song_the_chosen",
+		"setting": 464,
+		"bits": 1,
+		"offset": 4,
+		"transmit": true
+	},
+	{
+		"name": "song_the_desert",
+		"setting": 23,
+		"bits": 1,
+		"offset": 24,
+		"transmit": true
+	},
+	{
+		"name": "song_the_far_side",
+		"setting": 414,
+		"bits": 1,
+		"offset": 26,
+		"transmit": true
+	},
+	{
+		"name": "song_the_golem",
+		"setting": 414,
+		"bits": 1,
+		"offset": 7,
+		"transmit": true
+	},
+	{
+		"name": "song_the_lost_melody",
+		"setting": 414,
+		"bits": 1,
+		"offset": 27,
+		"transmit": true
+	},
+	{
+		"name": "song_the_lost_tribe",
+		"setting": 464,
+		"bits": 1,
+		"offset": 2,
+		"transmit": true
+	},
+	{
+		"name": "song_the_navigator",
+		"setting": 311,
+		"bits": 1,
+		"offset": 31,
+		"transmit": true
+	},
+	{
+		"name": "song_the_other_side",
+		"setting": 346,
+		"bits": 1,
+		"offset": 22,
+		"transmit": true
+	},
+	{
+		"name": "song_the_power_of_tears",
+		"setting": 414,
+		"bits": 1,
+		"offset": 31,
+		"transmit": true
+	},
+	{
+		"name": "song_the_rogues_den",
+		"setting": 414,
+		"bits": 1,
+		"offset": 25,
+		"transmit": true
+	},
+	{
+		"name": "song_the_shadow",
+		"setting": 23,
+		"bits": 1,
+		"offset": 25,
+		"transmit": true
+	},
+	{
+		"name": "song_the_slayer",
+		"setting": 346,
+		"bits": 1,
+		"offset": 13,
+		"transmit": true
+	},
+	{
+		"name": "song_the_terrible_tower",
+		"setting": 346,
+		"bits": 1,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "song_the_tower",
+		"setting": 23,
+		"bits": 1,
+		"offset": 26,
+		"transmit": true
+	},
+	{
+		"name": "song_throne_of_the_demon",
+		"setting": 414,
+		"bits": 1,
+		"offset": 9,
+		"transmit": true
+	},
+	{
+		"name": "song_time_out",
+		"setting": 298,
+		"bits": 1,
+		"offset": 4,
+		"transmit": true
+	},
+	{
+		"name": "song_time_to_mine",
+		"setting": 414,
+		"bits": 1,
+		"offset": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_tiptoe",
+		"setting": 346,
+		"bits": 1,
+		"offset": 10,
+		"transmit": true
+	},
+	{
+		"name": "song_tomorrow",
+		"setting": 25,
+		"bits": 1,
+		"offset": 3,
+		"transmit": true
+	},
+	{
+		"name": "song_trawler_minor",
+		"setting": 23,
+		"bits": 1,
+		"offset": 29,
+		"transmit": true
+	},
+	{
+		"name": "song_trawler",
+		"setting": 23,
+		"bits": 1,
+		"offset": 28,
+		"transmit": true
+	},
+	{
+		"name": "song_tree_spirits",
+		"setting": 23,
+		"bits": 1,
+		"offset": 30,
+		"transmit": true
+	},
+	{
+		"name": "song_tremble",
+		"setting": 25,
+		"bits": 1,
+		"offset": 29,
+		"transmit": true
+	},
+	{
+		"name": "song_tribal",
+		"setting": 24,
+		"bits": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_tribal_2",
+		"setting": 24,
+		"bits": 1,
+		"offset": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_tribal_background",
+		"setting": 23,
+		"bits": 1,
+		"offset": 31,
+		"transmit": true
+	},
+	{
+		"name": "song_trinity",
+		"setting": 24,
+		"bits": 1,
+		"offset": 2,
+		"transmit": true
+	},
+	{
+		"name": "song_troubled",
+		"setting": 24,
+		"bits": 1,
+		"offset": 3,
+		"transmit": true
+	},
+	{
+		"name": "song_twilight",
+		"setting": 25,
+		"bits": 1,
+		"offset": 19,
+		"transmit": true
+	},
+	{
+		"name": "song_undercurrent",
+		"setting": 25,
+		"bits": 1,
+		"offset": 10,
+		"transmit": true
+	},
+	{
+		"name": "song_underground",
+		"setting": 24,
+		"bits": 1,
+		"offset": 4,
+		"transmit": true
+	},
+	{
+		"name": "song_underground_pass",
+		"setting": 24,
+		"bits": 1,
+		"offset": 6,
+		"transmit": true
+	},
+	{
+		"name": "song_understanding",
+		"setting": 25,
+		"bits": 1,
+		"offset": 27,
+		"transmit": true
+	},
+	{
+		"name": "song_unknown_land",
+		"setting": 24,
+		"bits": 1,
+		"offset": 5,
+		"transmit": true
+	},
+	{
+		"name": "song_upcoming",
+		"setting": 24,
+		"bits": 1,
+		"offset": 7,
+		"transmit": true
+	},
+	{
+		"name": "song_venture",
+		"setting": 24,
+		"bits": 1,
+		"offset": 8,
+		"transmit": true
+	},
+	{
+		"name": "song_venture_2",
+		"setting": 25,
+		"bits": 1,
+		"offset": 8,
+		"transmit": true
+	},
+	{
+		"name": "song_village",
+		"setting": 25,
+		"bits": 1,
+		"offset": 22,
+		"transmit": true
+	},
+	{
+		"name": "song_vision",
+		"setting": 24,
+		"bits": 1,
+		"offset": 9,
+		"transmit": true
+	},
+	{
+		"name": "song_voodoo_cult",
+		"setting": 24,
+		"bits": 1,
+		"offset": 10,
+		"transmit": true
+	},
+	{
+		"name": "song_voyage",
+		"setting": 24,
+		"bits": 1,
+		"offset": 11,
+		"transmit": true
+	},
+	{
+		"name": "song_wander",
+		"setting": 24,
+		"bits": 1,
+		"offset": 12,
+		"transmit": true
+	},
+	{
+		"name": "song_warrior",
+		"setting": 311,
+		"bits": 1,
+		"offset": 13,
+		"transmit": true
+	},
+	{
+		"name": "song_waterfall",
+		"setting": 24,
+		"bits": 1,
+		"offset": 13,
+		"transmit": true
+	},
+	{
+		"name": "song_waterlogged",
+		"setting": 298,
+		"bits": 1,
+		"offset": 7,
+		"transmit": true
+	},
+	{
+		"name": "song_wayward",
+		"setting": 414,
+		"bits": 1,
+		"offset": 20,
+		"transmit": true
+	},
+	{
+		"name": "song_well_of_voyage",
+		"setting": 298,
+		"bits": 1,
+		"offset": 29,
+		"transmit": true
+	},
+	{
+		"name": "song_wilderness",
+		"setting": 24,
+		"bits": 1,
+		"offset": 14,
+		"transmit": true
+	},
+	{
+		"name": "song_wilderness_2",
+		"setting": 24,
+		"bits": 1,
+		"offset": 15,
+		"transmit": true
+	},
+	{
+		"name": "song_wilderness_3",
+		"setting": 24,
+		"bits": 1,
+		"offset": 16,
+		"transmit": true
+	},
+	{
+		"name": "song_wildwood",
+		"setting": 346,
+		"bits": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_witching",
+		"setting": 24,
+		"bits": 1,
+		"offset": 17,
+		"transmit": true
+	},
+	{
+		"name": "song_wolf_mountain",
+		"setting": 25,
+		"bits": 1,
+		"offset": 6,
+		"transmit": true
+	},
+	{
+		"name": "song_wonder",
+		"setting": 24,
+		"bits": 1,
+		"offset": 18,
+		"transmit": true
+	},
+	{
+		"name": "song_wonderous",
+		"setting": 24,
+		"bits": 1,
+		"offset": 19,
+		"transmit": true
+	},
+	{
+		"name": "song_woodland",
+		"setting": 298,
+		"bits": 1,
+		"offset": 14,
+		"transmit": true
+	},
+	{
+		"name": "song_workshop",
+		"setting": 24,
+		"bits": 1,
+		"offset": 20,
+		"transmit": true
+	},
+	{
+		"name": "song_yesteryear",
+		"setting": 25,
+		"bits": 1,
+		"offset": 1,
+		"transmit": true
+	},
+	{
+		"name": "song_zealot",
+		"setting": 25,
+		"bits": 1,
+		"offset": 12,
+		"transmit": true
+	},
+	{
+		"name": "song_zogre_dance",
+		"setting": 414,
+		"bits": 1,
+		"offset": 18,
+		"transmit": true
+	},
+	{
+		"name": "move_speed",
+		"setting": 173,
+		"bits": 1,
+		"transmit": true
+	},
+	{
+		"name": "auto_retaliate",
+		"setting": 172,
+		"bits": 1,
+		"transmit": true
+	},
+	{
+		"name": "prayer_thick_skin",
+		"setting": 83,
+		"transmit": true
+	},
+	{
+		"name": "prayer_burst_of_strength",
+		"setting": 84,
+		"transmit": true
+	},
+	{
+		"name": "prayer_clarity_of_thought",
+		"setting": 85,
+		"transmit": true
+	},
+	{
+		"name": "prayer_rock_skin",
+		"setting": 86,
+		"transmit": true
+	},
+	{
+		"name": "prayer_superhuman_strength",
+		"setting": 87,
+		"transmit": true
+	},
+	{
+		"name": "prayer_improved_reflexes",
+		"setting": 88,
+		"transmit": true
+	},
+	{
+		"name": "prayer_rapid_restore",
+		"setting": 89,
+		"transmit": true
+	},
+	{
+		"name": "prayer_rapid_heal",
+		"setting": 90,
+		"transmit": true
+	},
+	{
+		"name": "prayer_protect_items",
+		"setting": 91,
+		"transmit": true
+	},
+	{
+		"name": "prayer_steel_skin",
+		"setting": 92,
+		"transmit": true
+	},
+	{
+		"name": "prayer_ultimate_strength",
+		"setting": 93,
+		"transmit": true
+	},
+	{
+		"name": "prayer_incredible_reflexes",
+		"setting": 94,
+		"transmit": true
+	},
+	{
+		"name": "prayer_protect_from_magic",
+		"setting": 95,
+		"transmit": true
+	},
+	{
+		"name": "prayer_protect_from_missiles",
+		"setting": 96,
+		"transmit": true
+	},
+	{
+		"name": "prayer_protect_from_melee",
+		"setting": 97,
+		"transmit": true
+	},
+	{
+		"name": "questpoints",
+		"setting": 101,
+		"transmit": true
+	},
+	{
+		"name": "genie_stat",
+		"setting": 79,
+		"transmit": true
+	},
+	{
+		"name": "southeast_map",
+		"setting": 106,
+		"transmit": true
+	},
+	{
+		"name": "travel_map_animation",
+		"setting": 75,
+		"transmit": true
+	},
+	{
+		"name": "archery_shots_used",
+		"setting": 156,
+		"transmit": true
+	},
+	{
+		"name": "archery_score",
+		"setting": 157,
+		"transmit": true
+	},
+	{
+		"name": "archery_shot_position",
+		"setting": 158,
+		"transmit": true
+	},
+	{
+		"name": "gnome_glider_animation",
+		"setting": 153,
+		"transmit": true
+	},
+	{
+		"name": "salon_style",
+		"setting": 261,
+		"transmit": true
+	},
+	{
+		"name": "salon_color",
+		"setting": 262,
+		"transmit": true
+	}
+]

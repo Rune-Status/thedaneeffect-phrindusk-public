@@ -1,0 +1,2283 @@
+[
+	{
+		"x": 59,
+		"y": 55,
+		"track": "Dragontooth Island"
+	},
+	{
+		"x": 57,
+		"y": 154,
+		"track": "Phasmatys"
+	},
+	{
+		"x": 57,
+		"y": 55,
+		"track": "The Other Side"
+	},
+	{
+		"x": 57,
+		"y": 54,
+		"track": "The Other Side"
+	},
+	{
+		"x": 56,
+		"y": 55,
+		"track": "Shipwrecked"
+	},
+	{
+		"x": 56,
+		"y": 54,
+		"track": "Deadlands"
+	},
+	{
+		"x": 55,
+		"y": 155,
+		"track": "Body Parts"
+	},
+	{
+		"x": 55,
+		"y": 154,
+		"track": "Barking Mad"
+	},
+	{
+		"x": 55,
+		"y": 151,
+		"track": "Dangerous Way"
+	},
+	{
+		"x": 55,
+		"y": 55,
+		"track": "Fenkenstrain's Refrain"
+	},
+	{
+		"x": 55,
+		"y": 54,
+		"track": "Deadlands"
+	},
+	{
+		"x": 55,
+		"y": 53,
+		"track": "Waterlogged"
+	},
+	{
+		"x": 55,
+		"y": 51,
+		"track": "Dance of the Undead"
+	},
+	{
+		"x": 54,
+		"y": 155,
+		"track": "Body Parts"
+	},
+	{
+		"x": 54,
+		"y": 153,
+		"track": "Stillness"
+	},
+	{
+		"x": 54,
+		"y": 151,
+		"track": "Lair"
+	},
+	{
+		"x": 54,
+		"y": 148,
+		"track": "Insect Queen"
+	},
+	{
+		"x": 54,
+		"y": 55,
+		"track": "Fenkenstrain's Refrain"
+	},
+	{
+		"x": 54,
+		"y": 54,
+		"track": "Village"
+	},
+	{
+		"x": 54,
+		"y": 53,
+		"track": "Waterlogged"
+	},
+	{
+		"x": 54,
+		"y": 52,
+		"track": "Stagnant"
+	},
+	{
+		"x": 54,
+		"y": 51,
+		"track": "Shadowland"
+	},
+	{
+		"x": 54,
+		"y": 48,
+		"track": "The Golem"
+	},
+	{
+		"x": 53,
+		"y": 154,
+		"track": "Mausoleum"
+	},
+	{
+		"x": 53,
+		"y": 152,
+		"track": "Grotto"
+	},
+	{
+		"x": 53,
+		"y": 150,
+		"track": "Spooky 2"
+	},
+	{
+		"x": 53,
+		"y": 55,
+		"track": "The Terrible Tower"
+	},
+	{
+		"x": 53,
+		"y": 54,
+		"track": "Morytania"
+	},
+	{
+		"x": 53,
+		"y": 53,
+		"track": "Dead Quiet"
+	},
+	{
+		"x": 53,
+		"y": 52,
+		"track": "Natural"
+	},
+	{
+		"x": 53,
+		"y": 51,
+		"track": "Bone Dance"
+	},
+	{
+		"x": 53,
+		"y": 50,
+		"track": "Shadowland"
+	},
+	{
+		"x": 53,
+		"y": 49,
+		"track": "Arabian"
+	},
+	{
+		"x": 53,
+		"y": 48,
+		"track": "The Golem"
+	},
+	{
+		"x": 52,
+		"y": 153,
+		"track": "Venture 2"
+	},
+	{
+		"x": 52,
+		"y": 152,
+		"track": "Venture 2"
+	},
+	{
+		"x": 52,
+		"y": 61,
+		"track": "Scape Sad"
+	},
+	{
+		"x": 52,
+		"y": 60,
+		"track": "Scape Sad"
+	},
+	{
+		"x": 52,
+		"y": 59,
+		"track": "Dangerous"
+	},
+	{
+		"x": 52,
+		"y": 58,
+		"track": "Witching"
+	},
+	{
+		"x": 52,
+		"y": 57,
+		"track": "Dark"
+	},
+	{
+		"x": 52,
+		"y": 56,
+		"track": "Underground"
+	},
+	{
+		"x": 52,
+		"y": 55,
+		"track": "Forbidden"
+	},
+	{
+		"x": 52,
+		"y": 54,
+		"track": "Parade"
+	},
+	{
+		"x": 52,
+		"y": 53,
+		"track": "Lullaby"
+	},
+	{
+		"x": 52,
+		"y": 52,
+		"track": "Venture"
+	},
+	{
+		"x": 52,
+		"y": 51,
+		"track": "Shine"
+	},
+	{
+		"x": 52,
+		"y": 50,
+		"track": "Duel Arena"
+	},
+	{
+		"x": 52,
+		"y": 49,
+		"track": "Al Kharid"
+	},
+	{
+		"x": 52,
+		"y": 48,
+		"track": "Egypt"
+	},
+	{
+		"x": 52,
+		"y": 47,
+		"track": "Desert Voyage"
+	},
+	{
+		"x": 52,
+		"y": 46,
+		"track": "Dynasty"
+	},
+	{
+		"x": 52,
+		"y": 45,
+		"track": "Sunburn"
+	},
+	{
+		"x": 51,
+		"y": 154,
+		"track": "Scape Cave"
+	},
+	{
+		"x": 51,
+		"y": 150,
+		"track": "The Lost Tribe"
+	},
+	{
+		"x": 51,
+		"y": 150,
+		"track": "The Lost Melody"
+	},
+	{
+		"x": 51,
+		"y": 147,
+		"track": "Lonesome"
+	},
+	{
+		"x": 51,
+		"y": 146,
+		"track": "Bone Dry"
+	},
+	{
+		"x": 51,
+		"y": 143,
+		"track": "Mirage"
+	},
+	{
+		"x": 51,
+		"y": 61,
+		"track": "Regal"
+	},
+	{
+		"x": 51,
+		"y": 60,
+		"track": "Scape Sad"
+	},
+	{
+		"x": 51,
+		"y": 59,
+		"track": "Dangerous"
+	},
+	{
+		"x": 51,
+		"y": 58,
+		"track": "Witching"
+	},
+	{
+		"x": 51,
+		"y": 57,
+		"track": "Dark"
+	},
+	{
+		"x": 51,
+		"y": 56,
+		"track": "Faithless"
+	},
+	{
+		"x": 51,
+		"y": 55,
+		"track": "Forbidden"
+	},
+	{
+		"x": 51,
+		"y": 54,
+		"track": "Parade"
+	},
+	{
+		"x": 51,
+		"y": 53,
+		"track": "Medieval"
+	},
+	{
+		"x": 51,
+		"y": 52,
+		"track": "Still Night"
+	},
+	{
+		"x": 51,
+		"y": 51,
+		"track": "Arabian 2"
+	},
+	{
+		"x": 51,
+		"y": 50,
+		"track": "Arabian"
+	},
+	{
+		"x": 51,
+		"y": 49,
+		"track": "Al Kharid"
+	},
+	{
+		"x": 51,
+		"y": 48,
+		"track": "Egypt"
+	},
+	{
+		"x": 51,
+		"y": 47,
+		"track": "Desert Voyage"
+	},
+	{
+		"x": 51,
+		"y": 46,
+		"track": "Desert Voyage"
+	},
+	{
+		"x": 51,
+		"y": 45,
+		"track": "Desert Voyage"
+	},
+	{
+		"x": 51,
+		"y": 44,
+		"track": "Scarab"
+	},
+	{
+		"x": 51,
+		"y": 43,
+		"track": "Sphinx"
+	},
+	{
+		"x": 50,
+		"y": 154,
+		"track": "Scape Cave"
+	},
+	{
+		"x": 50,
+		"y": 152,
+		"track": "Expanse"
+	},
+	{
+		"x": 50,
+		"y": 150,
+		"track": "Harmony 2"
+	},
+	{
+		"x": 50,
+		"y": 149,
+		"track": "Starlight"
+	},
+	{
+		"x": 50,
+		"y": 149,
+		"track": "Cave of the Goblins"
+	},
+	{
+		"x": 50,
+		"y": 148,
+		"track": "Tears of Guthix"
+	},
+	{
+		"x": 50,
+		"y": 146,
+		"track": "Bone Dry"
+	},
+	{
+		"x": 50,
+		"y": 145,
+		"track": "Sarcophagus"
+	},
+	{
+		"x": 50,
+		"y": 61,
+		"track": "Nightfall"
+	},
+	{
+		"x": 50,
+		"y": 60,
+		"track": "Scape Wild"
+	},
+	{
+		"x": 50,
+		"y": 59,
+		"track": "Wolf Mountain"
+	},
+	{
+		"x": 50,
+		"y": 58,
+		"track": "Shining"
+	},
+	{
+		"x": 50,
+		"y": 57,
+		"track": "Scape Wild"
+	},
+	{
+		"x": 50,
+		"y": 56,
+		"track": "Faithless"
+	},
+	{
+		"x": 50,
+		"y": 55,
+		"track": "Crystal Sword"
+	},
+	{
+		"x": 50,
+		"y": 54,
+		"track": "Adventure"
+	},
+	{
+		"x": 50,
+		"y": 53,
+		"track": "Garden"
+	},
+	{
+		"x": 50,
+		"y": 52,
+		"track": "Expanse"
+	},
+	{
+		"x": 50,
+		"y": 51,
+		"track": "Autumn Voyage"
+	},
+	{
+		"x": 50,
+		"y": 50,
+		"track": "Harmony"
+	},
+	{
+		"x": 50,
+		"y": 49,
+		"track": "Yesteryear"
+	},
+	{
+		"x": 50,
+		"y": 48,
+		"track": "Arabian 3"
+	},
+	{
+		"x": 50,
+		"y": 47,
+		"track": "The Desert"
+	},
+	{
+		"x": 50,
+		"y": 46,
+		"track": "Sunburn"
+	},
+	{
+		"x": 50,
+		"y": 45,
+		"track": "Scarab"
+	},
+	{
+		"x": 50,
+		"y": 44,
+		"track": "City of the Dead"
+	},
+	{
+		"x": 50,
+		"y": 43,
+		"track": "City of the Dead"
+	},
+	{
+		"x": 49,
+		"y": 154,
+		"track": "Scape Cave"
+	},
+	{
+		"x": 49,
+		"y": 153,
+		"track": "Cellar Song"
+	},
+	{
+		"x": 49,
+		"y": 150,
+		"track": "Monster Melee"
+	},
+	{
+		"x": 49,
+		"y": 149,
+		"track": "Cave of the Goblins"
+	},
+	{
+		"x": 49,
+		"y": 61,
+		"track": "Expanse"
+	},
+	{
+		"x": 49,
+		"y": 60,
+		"track": "Scape Wild"
+	},
+	{
+		"x": 49,
+		"y": 59,
+		"track": "Wolf Mountain"
+	},
+	{
+		"x": 49,
+		"y": 58,
+		"track": "Close Quarters"
+	},
+	{
+		"x": 49,
+		"y": 57,
+		"track": "Scape Wild"
+	},
+	{
+		"x": 49,
+		"y": 56,
+		"track": "Moody"
+	},
+	{
+		"x": 49,
+		"y": 55,
+		"track": "Lightness"
+	},
+	{
+		"x": 49,
+		"y": 54,
+		"track": "Doorways"
+	},
+	{
+		"x": 49,
+		"y": 53,
+		"track": "Spirit"
+	},
+	{
+		"x": 49,
+		"y": 52,
+		"track": "Greatness"
+	},
+	{
+		"x": 49,
+		"y": 51,
+		"track": "Flute Salad"
+	},
+	{
+		"x": 49,
+		"y": 50,
+		"track": "Dream"
+	},
+	{
+		"x": 49,
+		"y": 49,
+		"track": "Book Of Spells"
+	},
+	{
+		"x": 49,
+		"y": 48,
+		"track": "Newbie Melody"
+	},
+	{
+		"x": 49,
+		"y": 47,
+		"track": "The Desert"
+	},
+	{
+		"x": 49,
+		"y": 46,
+		"track": "Bandit Camp"
+	},
+	{
+		"x": 49,
+		"y": 45,
+		"track": "Scarab"
+	},
+	{
+		"x": 48,
+		"y": 153,
+		"track": "Barbarianism"
+	},
+	{
+		"x": 48,
+		"y": 152,
+		"track": "Tiptoe"
+	},
+	{
+		"x": 48,
+		"y": 151,
+		"track": "Down Below"
+	},
+	{
+		"x": 48,
+		"y": 150,
+		"track": "Vision"
+	},
+	{
+		"x": 48,
+		"y": 150,
+		"track": "Down Below"
+	},
+	{
+		"x": 48,
+		"y": 149,
+		"track": "Scape Cave"
+	},
+	{
+		"x": 48,
+		"y": 148,
+		"track": "Vision"
+	},
+	{
+		"x": 48,
+		"y": 148,
+		"track": "Scape Cave"
+	},
+	{
+		"x": 48,
+		"y": 61,
+		"track": "Mage Arena"
+	},
+	{
+		"x": 48,
+		"y": 60,
+		"track": "Wilderness 2"
+	},
+	{
+		"x": 48,
+		"y": 59,
+		"track": "Wilderness 2"
+	},
+	{
+		"x": 48,
+		"y": 58,
+		"track": "Wilderness"
+	},
+	{
+		"x": 48,
+		"y": 57,
+		"track": "Undercurrent"
+	},
+	{
+		"x": 48,
+		"y": 56,
+		"track": "Wildwood"
+	},
+	{
+		"x": 48,
+		"y": 55,
+		"track": "Dangerous"
+	},
+	{
+		"x": 48,
+		"y": 54,
+		"track": "Forever"
+	},
+	{
+		"x": 48,
+		"y": 53,
+		"track": "Barbarianism"
+	},
+	{
+		"x": 48,
+		"y": 52,
+		"track": "Spooky"
+	},
+	{
+		"x": 48,
+		"y": 51,
+		"track": "Start"
+	},
+	{
+		"x": 48,
+		"y": 50,
+		"track": "Unknown Land"
+	},
+	{
+		"x": 48,
+		"y": 49,
+		"track": "Vision"
+	},
+	{
+		"x": 48,
+		"y": 48,
+		"track": "Newbie Melody"
+	},
+	{
+		"x": 48,
+		"y": 47,
+		"track": "Newbie Melody"
+	},
+	{
+		"x": 47,
+		"y": 85,
+		"track": "Marooned"
+	},
+	{
+		"x": 47,
+		"y": 76,
+		"track": "Into the Abyss"
+	},
+	{
+		"x": 47,
+		"y": 75,
+		"track": "Into the Abyss"
+	},
+	{
+		"x": 47,
+		"y": 161,
+		"track": "Cavern"
+	},
+	{
+		"x": 47,
+		"y": 160,
+		"track": "Attack 3"
+	},
+	{
+		"x": 47,
+		"y": 153,
+		"track": "Cave Background"
+	},
+	{
+		"x": 47,
+		"y": 152,
+		"track": "Cave Background"
+	},
+	{
+		"x": 47,
+		"y": 149,
+		"track": "Starlight"
+	},
+	{
+		"x": 47,
+		"y": 149,
+		"track": "Starlight"
+	},
+	{
+		"x": 47,
+		"y": 79,
+		"track": "The Far Side"
+	},
+	{
+		"x": 47,
+		"y": 78,
+		"track": "The Far Side"
+	},
+	{
+		"x": 47,
+		"y": 77,
+		"track": "The Rogues Den"
+	},
+	{
+		"x": 47,
+		"y": 61,
+		"track": "Pirates of Peril"
+	},
+	{
+		"x": 47,
+		"y": 60,
+		"track": "Wilderness 2"
+	},
+	{
+		"x": 47,
+		"y": 59,
+		"track": "Wilderness 2"
+	},
+	{
+		"x": 47,
+		"y": 58,
+		"track": "Gaol"
+	},
+	{
+		"x": 47,
+		"y": 57,
+		"track": "Legion"
+	},
+	{
+		"x": 47,
+		"y": 56,
+		"track": "Army Of Darkness"
+	},
+	{
+		"x": 47,
+		"y": 55,
+		"track": "Inspiration"
+	},
+	{
+		"x": 47,
+		"y": 54,
+		"track": "Alone"
+	},
+	{
+		"x": 47,
+		"y": 53,
+		"track": "Gnome Theme"
+	},
+	{
+		"x": 47,
+		"y": 52,
+		"track": "Workshop"
+	},
+	{
+		"x": 47,
+		"y": 51,
+		"track": "Wander"
+	},
+	{
+		"x": 47,
+		"y": 50,
+		"track": "Sea Shanty 2"
+	},
+	{
+		"x": 47,
+		"y": 49,
+		"track": "Tomorrow"
+	},
+	{
+		"x": 47,
+		"y": 48,
+		"track": "Newbie Melody"
+	},
+	{
+		"x": 47,
+		"y": 47,
+		"track": "Newbie Melody"
+	},
+	{
+		"x": 46,
+		"y": 161,
+		"track": "Serene"
+	},
+	{
+		"x": 46,
+		"y": 160,
+		"track": "Serene"
+	},
+	{
+		"x": 46,
+		"y": 153,
+		"track": "Cave Background"
+	},
+	{
+		"x": 46,
+		"y": 152,
+		"track": "Dunjun"
+	},
+	{
+		"x": 46,
+		"y": 149,
+		"track": "Starlight"
+	},
+	{
+		"x": 46,
+		"y": 79,
+		"track": "The Far Side"
+	},
+	{
+		"x": 46,
+		"y": 78,
+		"track": "The Far Side"
+	},
+	{
+		"x": 46,
+		"y": 61,
+		"track": "Serene"
+	},
+	{
+		"x": 46,
+		"y": 60,
+		"track": "Deep Wildy"
+	},
+	{
+		"x": 46,
+		"y": 59,
+		"track": "Deep Wildy"
+	},
+	{
+		"x": 46,
+		"y": 58,
+		"track": "Wilderness 3"
+	},
+	{
+		"x": 46,
+		"y": 57,
+		"track": "Troubled"
+	},
+	{
+		"x": 46,
+		"y": 56,
+		"track": "Wilderness"
+	},
+	{
+		"x": 46,
+		"y": 55,
+		"track": "Wonder"
+	},
+	{
+		"x": 46,
+		"y": 54,
+		"track": "Gnome"
+	},
+	{
+		"x": 46,
+		"y": 53,
+		"track": "Scape Soft"
+	},
+	{
+		"x": 46,
+		"y": 52,
+		"track": "Fanfare"
+	},
+	{
+		"x": 46,
+		"y": 51,
+		"track": "Nightfall"
+	},
+	{
+		"x": 46,
+		"y": 50,
+		"track": "Long Way Home"
+	},
+	{
+		"x": 46,
+		"y": 49,
+		"track": "Attention"
+	},
+	{
+		"x": 46,
+		"y": 47,
+		"track": "Fanfare 2"
+	},
+	{
+		"x": 46,
+		"y": 46,
+		"track": "Tribal 2"
+	},
+	{
+		"x": 46,
+		"y": 45,
+		"track": "Reggae"
+	},
+	{
+		"x": 45,
+		"y": 159,
+		"track": "Tale of Keldagrim"
+	},
+	{
+		"x": 45,
+		"y": 158,
+		"track": "Tale of Keldagrim"
+	},
+	{
+		"x": 45,
+		"y": 157,
+		"track": "Mad Eadgar"
+	},
+	{
+		"x": 45,
+		"y": 156,
+		"track": "Expedition"
+	},
+	{
+		"x": 45,
+		"y": 155,
+		"track": "Beyond"
+	},
+	{
+		"x": 45,
+		"y": 154,
+		"track": "Courage"
+	},
+	{
+		"x": 45,
+		"y": 153,
+		"track": "Courage"
+	},
+	{
+		"x": 45,
+		"y": 152,
+		"track": "Dunjun"
+	},
+	{
+		"x": 45,
+		"y": 151,
+		"track": "Royale"
+	},
+	{
+		"x": 45,
+		"y": 146,
+		"track": "Oriental"
+	},
+	{
+		"x": 45,
+		"y": 145,
+		"track": "Voodoo Cult"
+	},
+	{
+		"x": 45,
+		"y": 75,
+		"track": "Rune Essence"
+	},
+	{
+		"x": 45,
+		"y": 71,
+		"track": "Time Out"
+	},
+	{
+		"x": 45,
+		"y": 58,
+		"track": "Stranded"
+	},
+	{
+		"x": 45,
+		"y": 57,
+		"track": "Sojourn"
+	},
+	{
+		"x": 45,
+		"y": 56,
+		"track": "Contest"
+	},
+	{
+		"x": 45,
+		"y": 55,
+		"track": "Principality"
+	},
+	{
+		"x": 45,
+		"y": 54,
+		"track": "Splendour"
+	},
+	{
+		"x": 45,
+		"y": 53,
+		"track": "Horizon"
+	},
+	{
+		"x": 45,
+		"y": 52,
+		"track": "Arrival"
+	},
+	{
+		"x": 45,
+		"y": 51,
+		"track": "Miles Away"
+	},
+	{
+		"x": 45,
+		"y": 50,
+		"track": "Emperor"
+	},
+	{
+		"x": 45,
+		"y": 49,
+		"track": "Sea Shanty"
+	},
+	{
+		"x": 45,
+		"y": 48,
+		"track": "Reggae 2"
+	},
+	{
+		"x": 45,
+		"y": 47,
+		"track": "Reggae 2"
+	},
+	{
+		"x": 45,
+		"y": 46,
+		"track": "Tribal 2"
+	},
+	{
+		"x": 45,
+		"y": 45,
+		"track": "Reggae"
+	},
+	{
+		"x": 45,
+		"y": 42,
+		"track": "Marooned"
+	},
+	{
+		"x": 44,
+		"y": 159,
+		"track": "Land of the Dwarves"
+	},
+	{
+		"x": 44,
+		"y": 158,
+		"track": "Time to Mine"
+	},
+	{
+		"x": 44,
+		"y": 157,
+		"track": "Marzipan"
+	},
+	{
+		"x": 44,
+		"y": 155,
+		"track": "Beyond"
+	},
+	{
+		"x": 44,
+		"y": 154,
+		"track": "Beyond"
+	},
+	{
+		"x": 44,
+		"y": 153,
+		"track": "Arabique"
+	},
+	{
+		"x": 44,
+		"y": 152,
+		"track": "Underground"
+	},
+	{
+		"x": 44,
+		"y": 149,
+		"track": "Dangerous Road"
+	},
+	{
+		"x": 44,
+		"y": 149,
+		"track": "Ambient Jungle"
+	},
+	{
+		"x": 44,
+		"y": 148,
+		"track": "Tribal Background"
+	},
+	{
+		"x": 44,
+		"y": 75,
+		"track": "Serene"
+	},
+	{
+		"x": 44,
+		"y": 59,
+		"track": "Frostbite"
+	},
+	{
+		"x": 44,
+		"y": 58,
+		"track": "Stranded"
+	},
+	{
+		"x": 44,
+		"y": 57,
+		"track": "Sojourn"
+	},
+	{
+		"x": 44,
+		"y": 56,
+		"track": "Tremble"
+	},
+	{
+		"x": 44,
+		"y": 55,
+		"track": "Kingdom"
+	},
+	{
+		"x": 44,
+		"y": 54,
+		"track": "Ice Melody"
+	},
+	{
+		"x": 44,
+		"y": 53,
+		"track": "Fishing"
+	},
+	{
+		"x": 44,
+		"y": 52,
+		"track": "Background"
+	},
+	{
+		"x": 44,
+		"y": 51,
+		"track": "The Shadow"
+	},
+	{
+		"x": 44,
+		"y": 50,
+		"track": "The Shadow"
+	},
+	{
+		"x": 44,
+		"y": 49,
+		"track": "Jungle Island"
+	},
+	{
+		"x": 44,
+		"y": 48,
+		"track": "Tribal Background"
+	},
+	{
+		"x": 44,
+		"y": 47,
+		"track": "Tribal"
+	},
+	{
+		"x": 44,
+		"y": 46,
+		"track": "Ambient Jungle"
+	},
+	{
+		"x": 44,
+		"y": 45,
+		"track": "Jungle Island"
+	},
+	{
+		"x": 43,
+		"y": 159,
+		"track": "Marzipan"
+	},
+	{
+		"x": 43,
+		"y": 158,
+		"track": "Marzipan"
+	},
+	{
+		"x": 43,
+		"y": 157,
+		"track": "Cave of Beasts"
+	},
+	{
+		"x": 43,
+		"y": 156,
+		"track": "The Slayer"
+	},
+	{
+		"x": 43,
+		"y": 149,
+		"track": "Aztec"
+	},
+	{
+		"x": 43,
+		"y": 146,
+		"track": "Oriental"
+	},
+	{
+		"x": 43,
+		"y": 145,
+		"track": "Superstition"
+	},
+	{
+		"x": 43,
+		"y": 143,
+		"track": "Temple"
+	},
+	{
+		"x": 43,
+		"y": 142,
+		"track": "Find My Way"
+	},
+	{
+		"x": 43,
+		"y": 75,
+		"track": "Miracle Dance"
+	},
+	{
+		"x": 43,
+		"y": 73,
+		"track": "Sad Meadow"
+	},
+	{
+		"x": 43,
+		"y": 71,
+		"track": "Deep Down"
+	},
+	{
+		"x": 43,
+		"y": 70,
+		"track": "Chamber"
+	},
+	{
+		"x": 43,
+		"y": 69,
+		"track": "Haunted Mine"
+	},
+	{
+		"x": 43,
+		"y": 60,
+		"track": "Romancing the Crone"
+	},
+	{
+		"x": 43,
+		"y": 59,
+		"track": "Hells Bells"
+	},
+	{
+		"x": 43,
+		"y": 58,
+		"track": "Hells Bells"
+	},
+	{
+		"x": 43,
+		"y": 57,
+		"track": "Settlement"
+	},
+	{
+		"x": 43,
+		"y": 56,
+		"track": "Legend"
+	},
+	{
+		"x": 43,
+		"y": 55,
+		"track": "Camelot"
+	},
+	{
+		"x": 43,
+		"y": 54,
+		"track": "Camelot"
+	},
+	{
+		"x": 43,
+		"y": 53,
+		"track": "Lightwalk"
+	},
+	{
+		"x": 43,
+		"y": 52,
+		"track": "Background"
+	},
+	{
+		"x": 43,
+		"y": 51,
+		"track": "Fruits de Mer"
+	},
+	{
+		"x": 43,
+		"y": 50,
+		"track": "Jolly-R"
+	},
+	{
+		"x": 43,
+		"y": 49,
+		"track": "High Seas"
+	},
+	{
+		"x": 43,
+		"y": 48,
+		"track": "Nomad"
+	},
+	{
+		"x": 43,
+		"y": 47,
+		"track": "Jungly 3"
+	},
+	{
+		"x": 43,
+		"y": 46,
+		"track": "Jungly 1"
+	},
+	{
+		"x": 43,
+		"y": 45,
+		"track": "Spooky Jungle"
+	},
+	{
+		"x": 43,
+		"y": 43,
+		"track": "Monkey Madness"
+	},
+	{
+		"x": 43,
+		"y": 42,
+		"track": "Island Life"
+	},
+	{
+		"x": 42,
+		"y": 156,
+		"track": "Masquerade"
+	},
+	{
+		"x": 42,
+		"y": 154,
+		"track": "Twilight"
+	},
+	{
+		"x": 42,
+		"y": 153,
+		"track": "Attack 5"
+	},
+	{
+		"x": 42,
+		"y": 152,
+		"track": "Trinity"
+	},
+	{
+		"x": 42,
+		"y": 151,
+		"track": "Escape"
+	},
+	{
+		"x": 42,
+		"y": 149,
+		"track": "Pathways"
+	},
+	{
+		"x": 42,
+		"y": 148,
+		"track": "Karamja Jam"
+	},
+	{
+		"x": 42,
+		"y": 147,
+		"track": "Karamja Jam"
+	},
+	{
+		"x": 42,
+		"y": 143,
+		"track": "Showdown"
+	},
+	{
+		"x": 42,
+		"y": 142,
+		"track": "Find My Way"
+	},
+	{
+		"x": 42,
+		"y": 79,
+		"track": "Path of Peril"
+	},
+	{
+		"x": 42,
+		"y": 76,
+		"track": "Forgotten"
+	},
+	{
+		"x": 42,
+		"y": 76,
+		"z": 2,
+		"track": "Throne of the Demon"
+	},
+	{
+		"x": 42,
+		"y": 75,
+		"track": "Zealot"
+	},
+	{
+		"x": 42,
+		"y": 71,
+		"track": "Deep Down"
+	},
+	{
+		"x": 42,
+		"y": 70,
+		"track": "Deep Down"
+	},
+	{
+		"x": 42,
+		"y": 69,
+		"track": "Chamber"
+	},
+	{
+		"x": 42,
+		"y": 58,
+		"track": "Borderland"
+	},
+	{
+		"x": 42,
+		"y": 57,
+		"track": "Borderland"
+	},
+	{
+		"x": 42,
+		"y": 56,
+		"track": "Legend"
+	},
+	{
+		"x": 42,
+		"y": 55,
+		"track": "Monarch Waltz"
+	},
+	{
+		"x": 42,
+		"y": 54,
+		"track": "Overture"
+	},
+	{
+		"x": 42,
+		"y": 53,
+		"track": "Magical Journey"
+	},
+	{
+		"x": 42,
+		"y": 52,
+		"track": "Trinity"
+	},
+	{
+		"x": 42,
+		"y": 51,
+		"track": "Riverside"
+	},
+	{
+		"x": 42,
+		"y": 50,
+		"track": "Jungly 2"
+	},
+	{
+		"x": 42,
+		"y": 49,
+		"track": "Landlubber"
+	},
+	{
+		"x": 42,
+		"y": 43,
+		"track": "Anywhere"
+	},
+	{
+		"x": 42,
+		"y": 42,
+		"track": "Island Life"
+	},
+	{
+		"x": 41,
+		"y": 157,
+		"track": "Warrior"
+	},
+	{
+		"x": 41,
+		"y": 155,
+		"track": "Chain Of Command"
+	},
+	{
+		"x": 41,
+		"y": 154,
+		"track": "Chain Of Command"
+	},
+	{
+		"x": 41,
+		"y": 153,
+		"track": "Chain Of Command"
+	},
+	{
+		"x": 41,
+		"y": 152,
+		"track": "Chain Of Command"
+	},
+	{
+		"x": 41,
+		"y": 151,
+		"track": "Crystal Sword"
+	},
+	{
+		"x": 41,
+		"y": 149,
+		"track": "7th Realm"
+	},
+	{
+		"x": 41,
+		"y": 148,
+		"track": "7th Realm"
+	},
+	{
+		"x": 41,
+		"y": 146,
+		"track": "Chompy Hunt"
+	},
+	{
+		"x": 41,
+		"y": 79,
+		"track": "Path of Peril"
+	},
+	{
+		"x": 41,
+		"y": 75,
+		"track": "Down To Earth"
+	},
+	{
+		"x": 41,
+		"y": 73,
+		"track": "Miles Away"
+	},
+	{
+		"x": 41,
+		"y": 70,
+		"track": "Technology"
+	},
+	{
+		"x": 41,
+		"y": 58,
+		"track": "Rellekka"
+	},
+	{
+		"x": 41,
+		"y": 57,
+		"track": "Rellekka"
+	},
+	{
+		"x": 41,
+		"y": 56,
+		"track": "Saga"
+	},
+	{
+		"x": 41,
+		"y": 55,
+		"track": "Lullaby"
+	},
+	{
+		"x": 41,
+		"y": 54,
+		"track": "Talking Forest"
+	},
+	{
+		"x": 41,
+		"y": 53,
+		"track": "Lasting"
+	},
+	{
+		"x": 41,
+		"y": 52,
+		"track": "Wonderous"
+	},
+	{
+		"x": 41,
+		"y": 51,
+		"track": "Baroque"
+	},
+	{
+		"x": 41,
+		"y": 50,
+		"track": "Upcoming"
+	},
+	{
+		"x": 41,
+		"y": 49,
+		"track": "Fanfare 3"
+	},
+	{
+		"x": 41,
+		"y": 48,
+		"track": "Long Ago"
+	},
+	{
+		"x": 41,
+		"y": 46,
+		"track": "Chompy Hunt"
+	},
+	{
+		"x": 40,
+		"y": 154,
+		"track": "Theme"
+	},
+	{
+		"x": 40,
+		"y": 153,
+		"track": "Goblin Game"
+	},
+	{
+		"x": 40,
+		"y": 150,
+		"track": "Alone"
+	},
+	{
+		"x": 40,
+		"y": 148,
+		"track": "Cavern"
+	},
+	{
+		"x": 40,
+		"y": 77,
+		"track": "In Between"
+	},
+	{
+		"x": 40,
+		"y": 75,
+		"track": "Quest"
+	},
+	{
+		"x": 40,
+		"y": 70,
+		"track": "Technology"
+	},
+	{
+		"x": 40,
+		"y": 69,
+		"track": "Emotion"
+	},
+	{
+		"x": 40,
+		"y": 60,
+		"track": "Etceteria"
+	},
+	{
+		"x": 40,
+		"y": 58,
+		"track": "Rellekka"
+	},
+	{
+		"x": 40,
+		"y": 57,
+		"track": "Rellekka"
+	},
+	{
+		"x": 40,
+		"y": 56,
+		"track": "Saga"
+	},
+	{
+		"x": 40,
+		"y": 54,
+		"track": "Theme"
+	},
+	{
+		"x": 40,
+		"y": 53,
+		"track": "Mellow"
+	},
+	{
+		"x": 40,
+		"y": 52,
+		"track": "The Tower"
+	},
+	{
+		"x": 40,
+		"y": 51,
+		"track": "Knightly"
+	},
+	{
+		"x": 40,
+		"y": 50,
+		"track": "Ballad Of Enchantment"
+	},
+	{
+		"x": 40,
+		"y": 49,
+		"track": "Attack 4"
+	},
+	{
+		"x": 40,
+		"y": 48,
+		"track": "Magic Dance"
+	},
+	{
+		"x": 40,
+		"y": 47,
+		"track": "In The Manor"
+	},
+	{
+		"x": 40,
+		"y": 46,
+		"track": "Grumpy"
+	},
+	{
+		"x": 39,
+		"y": 156,
+		"track": "Out of the Deep"
+	},
+	{
+		"x": 39,
+		"y": 154,
+		"track": "Theme"
+	},
+	{
+		"x": 39,
+		"y": 153,
+		"track": "Waterfall"
+	},
+	{
+		"x": 39,
+		"y": 150,
+		"track": "Alone"
+	},
+	{
+		"x": 39,
+		"y": 149,
+		"track": "Emotion"
+	},
+	{
+		"x": 39,
+		"y": 147,
+		"track": "Attack 6"
+	},
+	{
+		"x": 39,
+		"y": 77,
+		"track": "In Between"
+	},
+	{
+		"x": 39,
+		"y": 75,
+		"track": "Heart and Mind"
+	},
+	{
+		"x": 39,
+		"y": 73,
+		"track": "Mage Arena"
+	},
+	{
+		"x": 39,
+		"y": 60,
+		"track": "Miscellania"
+	},
+	{
+		"x": 39,
+		"y": 56,
+		"track": "Lighthouse"
+	},
+	{
+		"x": 39,
+		"y": 55,
+		"track": "Legion"
+	},
+	{
+		"x": 39,
+		"y": 54,
+		"track": "Voyage"
+	},
+	{
+		"x": 39,
+		"y": 53,
+		"track": "Waterfall"
+	},
+	{
+		"x": 39,
+		"y": 52,
+		"track": "March"
+	},
+	{
+		"x": 39,
+		"y": 51,
+		"track": "Sad Meadow"
+	},
+	{
+		"x": 39,
+		"y": 50,
+		"track": "Attack 1"
+	},
+	{
+		"x": 39,
+		"y": 49,
+		"track": "Emotion"
+	},
+	{
+		"x": 39,
+		"y": 48,
+		"track": "Big Chords"
+	},
+	{
+		"x": 39,
+		"y": 47,
+		"track": "Gaol"
+	},
+	{
+		"x": 39,
+		"y": 46,
+		"track": "Soundscape"
+	},
+	{
+		"x": 38,
+		"y": 154,
+		"track": "Narnode's Theme"
+	},
+	{
+		"x": 38,
+		"y": 151,
+		"track": "Cursed"
+	},
+	{
+		"x": 38,
+		"y": 150,
+		"track": "Expecting"
+	},
+	{
+		"x": 38,
+		"y": 147,
+		"track": "Wayward"
+	},
+	{
+		"x": 38,
+		"y": 77,
+		"track": "The Chosen"
+	},
+	{
+		"x": 38,
+		"y": 75,
+		"track": "Righteousness"
+	},
+	{
+		"x": 38,
+		"y": 69,
+		"track": "Crystal Cave"
+	},
+	{
+		"x": 38,
+		"y": 55,
+		"track": "Gnome King"
+	},
+	{
+		"x": 38,
+		"y": 54,
+		"track": "Gnome King"
+	},
+	{
+		"x": 38,
+		"y": 53,
+		"track": "Gnome Village"
+	},
+	{
+		"x": 38,
+		"y": 52,
+		"track": "Neverland"
+	},
+	{
+		"x": 38,
+		"y": 51,
+		"track": "Moody"
+	},
+	{
+		"x": 38,
+		"y": 50,
+		"track": "Expecting"
+	},
+	{
+		"x": 38,
+		"y": 49,
+		"track": "Serenade"
+	},
+	{
+		"x": 38,
+		"y": 48,
+		"track": "Melodrama"
+	},
+	{
+		"x": 38,
+		"y": 47,
+		"track": "Zogre Dance"
+	},
+	{
+		"x": 38,
+		"y": 46,
+		"track": "Soundscape"
+	},
+	{
+		"x": 37,
+		"y": 151,
+		"track": "Cursed"
+	},
+	{
+		"x": 37,
+		"y": 150,
+		"track": "Underground Pass"
+	},
+	{
+		"x": 37,
+		"y": 148,
+		"track": "Ready for Battle"
+	},
+	{
+		"x": 37,
+		"y": 78,
+		"track": "Dead Quiet"
+	},
+	{
+		"x": 37,
+		"y": 77,
+		"track": "Claustrophobia"
+	},
+	{
+		"x": 37,
+		"y": 75,
+		"track": "Understanding"
+	},
+	{
+		"x": 37,
+		"y": 73,
+		"track": "Voodoo Cult"
+	},
+	{
+		"x": 37,
+		"y": 69,
+		"track": "Faerie"
+	},
+	{
+		"x": 37,
+		"y": 68,
+		"track": "Faerie"
+	},
+	{
+		"x": 37,
+		"y": 55,
+		"track": "Gnomeball"
+	},
+	{
+		"x": 37,
+		"y": 54,
+		"track": "Gnomeball"
+	},
+	{
+		"x": 37,
+		"y": 53,
+		"track": "Gnome Village 2"
+	},
+	{
+		"x": 37,
+		"y": 52,
+		"track": "Tree Spirits"
+	},
+	{
+		"x": 37,
+		"y": 51,
+		"track": "Moody"
+	},
+	{
+		"x": 37,
+		"y": 49,
+		"track": "Serenade"
+	},
+	{
+		"x": 37,
+		"y": 48,
+		"track": "Castlewars"
+	},
+	{
+		"x": 37,
+		"y": 47,
+		"track": "Romper Chomper"
+	},
+	{
+		"x": 36,
+		"y": 154,
+		"track": "Intrepid"
+	},
+	{
+		"x": 36,
+		"y": 153,
+		"track": "Intrepid"
+	},
+	{
+		"x": 36,
+		"y": 150,
+		"track": "Well of Voyage"
+	},
+	{
+		"x": 36,
+		"y": 78,
+		"track": "Dead Quiet"
+	},
+	{
+		"x": 36,
+		"y": 77,
+		"track": "Claustrophobia"
+	},
+	{
+		"x": 36,
+		"y": 55,
+		"track": "Gnomeball"
+	},
+	{
+		"x": 36,
+		"y": 54,
+		"track": "Gnomeball"
+	},
+	{
+		"x": 36,
+		"y": 53,
+		"track": "Gnome Village 2"
+	},
+	{
+		"x": 36,
+		"y": 52,
+		"track": "Tree Spirits"
+	},
+	{
+		"x": 36,
+		"y": 51,
+		"track": "Overpass"
+	},
+	{
+		"x": 36,
+		"y": 50,
+		"track": "Elven Mist"
+	},
+	{
+		"x": 36,
+		"y": 48,
+		"track": "Lost Soul"
+	},
+	{
+		"x": 36,
+		"y": 47,
+		"track": "Romper Chomper"
+	},
+	{
+		"x": 35,
+		"y": 52,
+		"track": "Crystal Castle"
+	},
+	{
+		"x": 35,
+		"y": 51,
+		"track": "Crystal Castle"
+	},
+	{
+		"x": 35,
+		"y": 78,
+		"track": "Natural"
+	},
+	{
+		"x": 35,
+		"y": 75,
+		"track": "Complication"
+	},
+	{
+		"x": 35,
+		"y": 74,
+		"track": "Hermit"
+	},
+	{
+		"x": 35,
+		"y": 50,
+		"track": "Breeze"
+	},
+	{
+		"x": 35,
+		"y": 49,
+		"track": "Forest"
+	},
+	{
+		"x": 35,
+		"y": 48,
+		"track": "Lost Soul"
+	},
+	{
+		"x": 34,
+		"y": 78,
+		"track": "Stagnant"
+	},
+	{
+		"x": 34,
+		"y": 77,
+		"track": "Competition"
+	},
+	{
+		"x": 34,
+		"y": 51,
+		"track": "Everywhere"
+	},
+	{
+		"x": 34,
+		"y": 50,
+		"track": "Woodland"
+	},
+	{
+		"x": 34,
+		"y": 49,
+		"track": "Meridian"
+	},
+	{
+		"x": 34,
+		"y": 48,
+		"track": "Exposed"
+	},
+	{
+		"x": 33,
+		"y": 78,
+		"track": "Shadowland"
+	},
+	{
+		"x": 33,
+		"y": 75,
+		"track": "Stratosphere"
+	},
+	{
+		"x": 33,
+		"y": 73,
+		"track": "Iban"
+	},
+	{
+		"x": 33,
+		"y": 71,
+		"track": "Iban"
+	},
+	{
+		"x": 33,
+		"y": 51,
+		"track": "Everywhere"
+	},
+	{
+		"x": 33,
+		"y": 50,
+		"track": "Woodland"
+	},
+	{
+		"x": 33,
+		"y": 49,
+		"track": "Meridian"
+	},
+	{
+		"x": 33,
+		"y": 48,
+		"track": "Riverside"
+	},
+	{
+		"x": 32,
+		"y": 78,
+		"track": "Waterlogged"
+	},
+	{
+		"x": 31,
+		"y": 78,
+		"track": "Waterlogged"
+	},
+	{
+		"x": 31,
+		"y": 75,
+		"track": "Trawler Minor"
+	},
+	{
+		"x": 31,
+		"y": 74,
+		"track": "Artistry"
+	},
+	{
+		"x": 30,
+		"y": 75,
+		"track": "Trawler Minor"
+	},
+	{
+		"x": 29,
+		"y": 75,
+		"track": "Trawler"
+	}
+]

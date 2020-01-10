@@ -1,0 +1,23 @@
+{
+    "Lua.diagnostics.globals": [
+        "include",
+        "printt",
+        "base",
+        "printf",
+        "Item",
+        "Inventory",
+        "TwoHanded",
+        "Weapon",
+        "Shield",
+        "NewGroundItem",
+        "Broadcastf",
+        "Broadcast",
+        "Players",
+        "EmitSpotAnim",
+        "EmitSound",
+        "NewItem",
+        "NewObject",
+        "ErrNoSpace"
+    ],
+    "Lua.runtime.version": "Lua 5.1"
+}
