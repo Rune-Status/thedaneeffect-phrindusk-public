@@ -1,15 +1,18 @@
 include("doors.lua")
-include("objects.lua")
+include("interactions.lua")
 include("actions.lua")
 include("runescape_guide.lua")
 include("survival_expert.lua")
 include("fishing_spot.lua")
+include("master_chef.lua")
 
 local ProgressComponent = 8680
 local AlertComponent = 12227
 local DesignComponent = 3559
 local Aboveground = Area2(3055, 3059, 3154, 3134)
 local Underground = Area2(3072, 9493, 3117, 9533)
+
+buttons.Set(3651, function() end)
 
 local StepCallback = {
 	[0] = function(player)
@@ -115,6 +118,45 @@ local StepCallback = {
 			"Use your shrimp on the fire too cook them. If you've lost your",
 			"axe or tinderbox Brynna will give you another.",
 		})
+	end,
+	[10] = function(player)
+		player:SendMessage({
+			"@blu@Burning your shrimp.",
+			"You have just burnt your first shrimp. This is normal. As you",
+			"get more experience in cooking you will burn stuff less. Let's",
+			"try cooking, without burning it this time. First catch some",
+			"shrimp, then use them on a fire."
+		})
+	end,
+	[11] = function(player)
+		player:SendTileHint(HintSouthWest, 3090, 3092, 64)
+		player:SendMessage({
+			"@blu@Well done, you've just cooked your first Phrindusk meal.",
+			"If you'd like a recap on anything you've learned so far speak",
+			"to Brynna. You can now move on to the next instructor. Click on",
+			"the gate shown and follow the path. Remember you can move",
+			"the camera with the arrow keys."
+		})
+	end,
+	[12] = function(player)
+		player:SendTileHint(HintWest, 3079, 3084, 128)
+		player:SendMessage({
+			"@blu@Find your next instructor.",
+			"Follow the path until you get to the door with the yellow arrow",
+			"above it. Click on the door to open it. Notice the mini-map",
+			"in the top right, this shows a top down view of the area around",
+			"you. This can also be used for navigation."
+		})
+	end,
+	[13] = function(player)
+		player:SendActorHint(GetActor("master_chef"))
+		player:SendMessage({
+			"@blu@Find your next instructor.",
+			"",
+			"Talk to the chef indicated. He will teach you the more advanced",
+			"aspects of cooking such as combining ingredients. He will also",
+			"teach you about your music player menu as well.",
+		})
 	end
 }
 
@@ -130,16 +172,6 @@ local StepCallback = {
 -- player:SendTabComponent(TabPlayerControls, 147)
 -- player:SendTabComponent(TabMusicPlayer, 962)
 
-hook.Add("OnItemOnItem", "TutorialItemOnItem", function(user, a, b)
-	if a.id == 1511 and b.id == 590 then
-		a, b = b, a
-	end
-
-	if a.id == 590 and b.id == 1511 then
-		user:Act("tut_firemaking", { logs = b })
-	end
-end)
-
 hook.Add("OnVarbitChanged", "Tutorial", function(player, varbit, value)
 	if varbit == VbTutorialStep then
 		local callback = StepCallback[value]
@@ -147,16 +179,6 @@ hook.Add("OnVarbitChanged", "Tutorial", function(player, varbit, value)
 		if callback then
 			callback(player)
 		end
-	end
-end)
-
-hook.Add("OnFlashingTabSelected", "Tutorial", function(player, tab)
-	local step = player:GetInt(VbTutorialStep)
-
-	if step == 3 then
-		player:SetInt(VbTutorialStep, 4)
-	elseif step == 6 then
-		player:SetInt(VbTutorialStep, 7)
 	end
 end)
 
@@ -189,7 +211,7 @@ hook.Add("OnLogin", "Tutorial", function(player)
 	player:SendTabComponent(TabFriends, -1)
 	player:SendTabComponent(TabIgnores, -1)
 	player:SendTabComponent(TabLogout, 2449)
-	player:SendTabComponent(TabGameOptions, 904)
+	player:SendTabComponent(TabGameOptions, player:IsHighDetail() and 904 or 4445)
 	player:SendTabComponent(TabPlayerControls, -1)
 	player:SendTabComponent(TabMusicPlayer, -1)
 
@@ -201,16 +223,4 @@ hook.Add("OnLogin", "Tutorial", function(player)
 	if not player:GetBool(VbDesigned) then
 		player:SetComponent(Viewport, DesignComponent)
 	end
-end)
-
-hook.Add("OnRequestAppearance", "Tutorial", function(player, appearance)
-	if player:GetInt(VbTutorialStep) ~= 0 then
-		return
-	end
-
-	player:SetGender(appearance.gender)
-	player:SetDesigns(appearance.designs)
-	player:SetColors(appearance.colors)
-	player:SetBool(VbDesigned, true)
-	player:CloseComponents()
 end)

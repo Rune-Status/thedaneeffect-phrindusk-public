@@ -1,6 +1,4 @@
 function OnObjectOption(user, object, option)
-	user:FaceObject(object)
-
 	-- check for a callback to this object in specific first
 	if object.OnOption then
 		object:OnOption(user, option)

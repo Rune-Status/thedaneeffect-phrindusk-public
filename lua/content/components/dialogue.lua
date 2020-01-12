@@ -1,19 +1,15 @@
----Creates a table containing a text and continue option.
----@param text string
----@param continue any
-function Option(text, continue)
-	return { text = text, continue = continue }
-end
-
 ---Internal hook
 function OnDialogueContinue(user)
-	local part = user:GetCurrentDialogue()
+	local dialogue = user.dialogue
 
-	if not part then
+	if not dialogue then
+		user:CloseDialogue()
 		return
 	end
 
-	if not part.continue then
+	local part = dialogue[user.dialoguePart]
+
+	if not part or not part.continue then
 		user:CloseDialogue()
 		return
 	end
@@ -27,7 +23,14 @@ function OnDialogueContinue(user)
 end
 
 local function SelectOption(user, option)
-	local part = user:GetCurrentDialogue()
+	local dialogue = user.dialogue
+
+	if not dialogue then
+		user:CloseDialogue()
+		return
+	end
+
+	local part = dialogue[user.dialoguePart]
 
 	if not part then
 		user:CloseDialogue()

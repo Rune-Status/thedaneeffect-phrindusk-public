@@ -1,11 +1,25 @@
+local cooking = cooking
+local trees = trees
+local tools = tools
+local fish = fish
+local timer = timer
+
 action.Create("tut_woodcutting", {
 	repeats = 4,
 	priority = Strong,
 	callback = function(player, task)
 		if task.first then
+			local step = player:GetInt(VbTutorialStep)
+
+			if step < 4 then
+				player:Send("I am not ready to do that yet.")
+				task:Finish()
+				return
+			end
+
 			player:Animate(tools.bronze_axe.animation)
 
-			if player:GetInt(VbTutorialStep) == 4 then
+			if step == 4 then
 				player:SendMessage({
 					"@blu@Please wait...",
 					"",
@@ -15,19 +29,27 @@ action.Create("tut_woodcutting", {
 			end
 		end
 
+		if not player:GetInventory():Contains(tools.bronze_axe.item) then
+			player:Send("I need an axe to do that!")
+			player:Animate(-1)
+			task:Finish()
+			return
+		end
+
 		if task.last then
 			local tree = task.tree
 
 			if not tree.stump then
-				tree.stump = NewObject(trees.normal.stump, tree.x, tree.y, tree.z, Standard, tree.facing)
+				tree.stump = tree:MakeReplacement(trees.normal.stump)
 			end
 
 			tree:Remove()
 			tree.stump:Add()
 
 			timer.Create({
-				delay = 4 * Second,
+				delay = 8 * Second,
 				callback = function()
+					tree.stump:Remove()
 					tree:Add()
 				end
 			})
@@ -53,19 +75,11 @@ action.Create("tut_firemaking", {
 	repeats = 4,
 	priority = Strong,
 	callback = function(player, task)
-		local inventory = player:GetInventory()
-
-		if not inventory:Contains(tools.tinderbox.item) then
-			player:Send("You need a tinderbox to do that!")
-			player:Animate(-1)
-			task:Finish()
-			return
-		end
-
 		if task.first then
 			local grounditem = NewGroundItem(task.logs.id, 1, player.x, player.y, player.z, player)
 
 			if grounditem:Add() then
+				player:SendSound(376)
 				task.logs:Remove()
 			end
 
@@ -81,11 +95,20 @@ action.Create("tut_firemaking", {
 			player:Animate(tools.tinderbox.animation)
 		end
 
+		local inventory = player:GetInventory()
+
+		if not inventory:Contains(tools.tinderbox.item) then
+			player:Send("I need a tinderbox to do that!")
+			player:Animate(-1)
+			task:Finish()
+			return
+		end
+
 		if task.last then
 			local logs = GetGroundItem(task.logs.id, player.x, player.y, player.z, player)
 
 			if logs then
-				local fire = NewObject(2732, logs.x, logs.y, logs.z, Standard, 0)
+				local fire = NewObject(generic.fire, logs.x, logs.y, logs.z, Standard, 0)
 
 				fire:Add()
 
@@ -101,14 +124,15 @@ action.Create("tut_firemaking", {
 				logs:Remove()
 
 				EmitSound(374, logs.x, logs.y, logs.z)
+
+				if player:GetInt(VbTutorialStep) == 5 then
+					player:SetInt(VbTutorialStep, 6)
+				end
+
+				-- step in the first direction that is unblocked
+				player:Step(West, East, South, North)
 			end
 
-			if player:GetInt(VbTutorialStep) == 5 then
-				player:SetInt(VbTutorialStep, 6)
-			end
-
-			-- Step(direction...) selects the first unblocked direction and steps toward it
-			player:Step(West, East, South, North)
 			player:Animate(-1)
 		end
 	end
@@ -118,19 +142,18 @@ action.Create("tut_fishing", {
 	repeats = 6,
 	priority = Strong,
 	callback = function(player, task)
-		local inventory = player:GetInventory()
-
-		if not inventory:Contains(tools.small_net.item) then
-			player:Send("You need a fishing net to do that!")
-			player:Animate(-1)
-			task:Finish()
-			return
-		end
-
 		if task.first then
+			local step = player:GetInt(VbTutorialStep)
+
+			if step < 8 then
+				player:Send("I don't think I'm ready to do that yet.")
+				task:Finish()
+				return
+			end
+
 			player:Animate(tools.small_net.animation)
 
-			if player:GetInt(VbTutorialStep) == 8 then
+			if step == 8 then
 				player:SendMessage({
 					"@blu@Please wait...",
 					"This should only take a few seconds",
@@ -140,8 +163,17 @@ action.Create("tut_fishing", {
 			end
 		end
 
+		local inventory = player:GetInventory()
+
+		if not inventory:Contains(tools.small_net.item) then
+			player:Send("I need a fishing net to do that!")
+			player:Animate(-1)
+			task:Finish()
+			return
+		end
+
 		if task.last then
-			inventory:Add(NewItem(317, 1))
+			inventory:Add(fish.raw_shrimps)
 			player:Animate(-1)
 
 			if player:GetInt(VbTutorialStep) == 8 then
@@ -151,11 +183,41 @@ action.Create("tut_fishing", {
 	end
 })
 
--- animation: 897 sound: 235
 action.Create("tut_cooking_shrimp", {
 	repeats = 2,
 	priority = Strong,
 	callback = function(player, task)
+		if not IsValid(task.shrimp) then
+			player:Send("You need raw shrimp to do that.")
+			task:Finish()
+			return
+		end
 
+		if not IsValid(task.fire) then
+			task:Finish()
+			player:Animate(-1)
+			return
+		end
+
+		if task.first then
+			player:FaceObject(task.fire)
+			player:Animate(cooking.on_fire.animation)
+		end
+
+		if task.last then
+			local step = player:GetInt(VbTutorialStep)
+
+			if step == 9 then
+				task.shrimp:Replace(fish.burnt_shrimps)
+				player:SetInt(VbTutorialStep, 10)
+			elseif step == 10 then
+				task.shrimp:Replace(fish.shrimps)
+				player:SetInt(VbTutorialStep, 11)
+			elseif Roll(2) then
+				task.shrimp:Replace(fish.shrimps)
+			else
+				task.shrimp:Replace(fish.burnt_shrimps)
+			end
+		end
 	end
 })

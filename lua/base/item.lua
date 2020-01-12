@@ -47,7 +47,7 @@ function OnItemOption(user, item, option)
 				inventory:Set(item.slot, worn:Set(dst, item))
 			end
 
-			user:Invalidate()
+			user:UpdateAppearance()
 			user:SendSound(GetEquipmentSound(item))
 		elseif option == 4 then
 			local grounditem = NewGroundItem(item.id, item.amount, user.x, user.y, user.z, user)

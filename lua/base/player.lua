@@ -19,7 +19,6 @@ function OnLogin(player)
 end
 
 function OnVarbitChanged(player, varbit, value)
-	print(player, varbit, value)
 end
 
 function OnReconnect(player)

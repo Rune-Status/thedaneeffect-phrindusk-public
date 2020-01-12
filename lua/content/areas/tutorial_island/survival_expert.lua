@@ -1,7 +1,7 @@
 local expert = GetActor("survival_expert")
 
 if expert then
-	return
+	expert:Remove()
 end
 
 expert = NewActor(943)
@@ -25,23 +25,25 @@ end
 
 expert.Dialogue = {
 	["intro"] = {
-		type = "actor",
-		lines = {
+		actor = {
 			"Hello there newcomer. My name is Brynna. My job is",
 			"to teach you a few survival tips and tricks. First off",
 			"we're going to start with the most basic survival skill of",
 			"all; making a fire.",
 		},
+		continue = "intro_player",
+	},
+
+	["intro_player"] = {
+		emotion = "angry",
+		player = {
+			"Derp"
+		},
 		continue = "give_woodcutting_items",
 	},
 
 	["give_woodcutting_items"] = {
-		type = "message",
-		models = {
-			{ item = 590 },
-			{ item = 1351 },
-		},
-		lines = {
+		message = {
 			"The Survival Guide gives you a @blu@Tinderbox@bla@ and a",
 			"@blu@Bronze Axe@bla@!",
 		},
@@ -54,8 +56,7 @@ expert.Dialogue = {
 	},
 
 	["catch_shrimp"] = {
-		type = "actor",
-		lines = {
+		actor = {
 			"There's nothing like a good fire to warm the bones.",
 			"Next thing is getting food in our bellies. We'll need",
 			"something to cook. there are shrimp in the pond there.",
@@ -70,7 +71,7 @@ expert.Dialogue = {
 
 	["help"] = {
 		options = {
-			Option("I lost some items!", function(player)
+			DialogueOption("I lost some items!", function(player)
 				local step = player:GetInt(VbTutorialStep)
 				local inventory = player:GetInventory()
 
@@ -89,7 +90,7 @@ expert.Dialogue = {
 				end
 			end),
 
-			Option("Nevermind.")
+			DialogueOption("Nevermind.")
 		},
 	},
 }

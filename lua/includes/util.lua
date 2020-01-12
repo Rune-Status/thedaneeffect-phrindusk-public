@@ -1,4 +1,13 @@
 
+---A helper function to validate data
+---@param x any
+---@return boolean
+function IsValid(x)
+	if x == nil then return false end
+	if x.IsValid then return x:IsValid() end
+	return true
+end
+
 ---Enumerates the provided arguments into global constants.
 ---For example: Enum("Test", "A", "B", "C") generates the following constants:
 ---	TestA = 0

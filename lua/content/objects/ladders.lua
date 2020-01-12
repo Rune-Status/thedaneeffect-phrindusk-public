@@ -2,8 +2,6 @@ action.Create("climb", {
 	priority = Strong,
 	repeats = 1,
 	callback = function(player, task)
-		print(task.cycle, task)
-
 		if task.first then
 			player:Animate(task.animation)
 		end

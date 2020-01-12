@@ -3,7 +3,7 @@
 local fish = GetActor("tutorial_shrimp")
 
 if fish then
-	return
+	fish:Remove()
 end
 
 fish = NewActor(952)
