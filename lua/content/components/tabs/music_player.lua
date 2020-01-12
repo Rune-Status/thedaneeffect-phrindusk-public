@@ -20,7 +20,7 @@ for i = 1, #songs do
 	songByName[song.name] = song.id
 	varbitBySong[song.id] = _G["VbSong" .. Pascal(song.name)]
 
-	buttons.Set(song.button, SongButton)
+	button.Set(song.button, SongButton)
 end
 
 ---A utility function used to get a song index by name.
@@ -69,9 +69,9 @@ local function LoopButton(user)
 	user:SetBool(VbMusicLoop, not user:GetBool(VbMusicLoop))
 end
 
-buttons.Set(6269, AutoButton)
-buttons.Set(6270, ManualButton)
-buttons.Set(9925, LoopButton)
+button.Set(6269, AutoButton)
+button.Set(6270, ManualButton)
+button.Set(9925, LoopButton)
 
 local function SongButton(user, button)
 	local song = songByButton[button]

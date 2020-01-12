@@ -16,8 +16,20 @@ function chef:OnOption(user)
 
 	if step == 13 then
 		user:OpenDialogue(self.Dialogue, self, "intro")
+	else
+		user:OpenDialogue(self.Dialogue, self, "help")
 	end
 end
+
+items.OnItem(cooking.pot_of_flour.id, cooking.bucket_of_water.id, function(user, flour, water)
+	if user:GetInt(VbTutorialStep) == 14 then
+		user:SetInt(VbTutorialStep, 15)
+	end
+
+	flour:Remove()
+	water:Remove()
+	user:GetInventory():Add(cooking.bread_dough)
+end)
 
 chef.Dialogue = {
 	["intro"] = {
@@ -27,6 +39,7 @@ chef.Dialogue = {
 		},
 		continue = 1
 	},
+
 	[1] = {
 		player = {
 			"I already know how to cook. Brynna taught me just",
@@ -34,6 +47,7 @@ chef.Dialogue = {
 		},
 		continue = 2
 	},
+
 	[2] = {
 		emotion = "laugh",
 		actor = {
@@ -43,6 +57,7 @@ chef.Dialogue = {
 		},
 		continue = 3
 	},
+
 	[3] = {
 		actor = {
 			"And no fine meal is complete without good music so",
@@ -50,10 +65,38 @@ chef.Dialogue = {
 		},
 		continue = 4
 	},
+
 	[4] = {
 		message = {
 			"The Cooking Guide gives you a @blu@Bucket of Water@bla@ and a",
 			"@blu@Pot of Flour@bla@!"
+		},
+		callback = function(player)
+			local inventory = player:GetInventory()
+			inventory:Add(pot_of_flour)
+			inventory:Add(cooking.bucket_of_water)
+			player:SetInt(VbTutorialStep, 14)
+		end
+	},
+
+	["help"] = {
+		options = {
+			DialogueOption("I lost some items!", function(user)
+				local step = user:GetInt(VbTutorialStep)
+
+				if step == 14 then
+					local inventory = user:GetInventory()
+
+					if not inventory:Contains(bucket_of_water) then
+						inventory:Add(bucket_of_water)
+					end
+
+					if not inventory:Contains(pot_of_flour) then
+						inventory:Add(pot_of_flour)
+					end
+				end
+			end),
+			DialogueOption("Nevermind."),
 		}
-	}
+	},
 }

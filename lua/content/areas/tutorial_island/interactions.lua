@@ -3,13 +3,13 @@ objects.Set(3033, "Chop down", function(user, tree)
 end)
 
 hook.Add("OnItemOnObject", "Tutorial", function(user, item, object)
-	if item:Equals(fish.raw_shrimps) and object:Equals(generic.fire) then
+	if item:Equals(raw_shrimps) and object:Equals(generic.fire) then
 		user:Act("tut_cooking_shrimp", { shrimp = item, fire = object })
 	end
 end)
 
 hook.Add("OnItemOnItem", "Tutorial", function(user, a, b)
-	if a.id == 1511 and b.id == 590 then
+	if a:Equals(trees.normal.logs) and b.id == 590 then
 		a, b = b, a
 	end
 

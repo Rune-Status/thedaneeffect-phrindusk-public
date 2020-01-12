@@ -12,7 +12,7 @@ local DesignComponent = 3559
 local Aboveground = Area2(3055, 3059, 3154, 3134)
 local Underground = Area2(3072, 9493, 3117, 9533)
 
-buttons.Set(3651, function() end)
+button.Set(3651, function() end)
 
 local StepCallback = {
 	[0] = function(player)
@@ -55,6 +55,7 @@ local StepCallback = {
 
 		player:SendMessage({
 			"@blu@Viewing the items that you were given.",
+			"",
 			"Click on the flashing backpack icon to the right side of the",
 			"main window to view your inventory. Your inventory is a list of",
 			"everything you have in your backpack."
@@ -104,6 +105,7 @@ local StepCallback = {
 		player:SendActorHint(GetActor("tutorial_shrimp"))
 		player:SendMessage({
 			"@blu@Catch some Shrimp.",
+			"",
 			"Click on the fishing spot indicated by the flashing arrow.",
 			"Remember you can check your inventory by clicking the",
 			"backpack icon."
@@ -156,6 +158,16 @@ local StepCallback = {
 			"Talk to the chef indicated. He will teach you the more advanced",
 			"aspects of cooking such as combining ingredients. He will also",
 			"teach you about your music player menu as well.",
+		})
+	end,
+	[14] = function(player)
+		player:RemoveHint()
+		player:SendMessage({
+			"@blu@Making Dough.",
+			"",
+			"This is the base for many of the meals. To make dough we must",
+			"mix flour and water. So first right click the bucket of water and",
+			"select use, then left click on the pot of flour."
 		})
 	end
 }

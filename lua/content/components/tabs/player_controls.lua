@@ -8,19 +8,19 @@ action.Create("emote", {
 	end
 })
 
-buttons.Set(150, function(user)
+button.Set(150, function(user)
 	user:SetInt(VbAutoRetaliate, AutoRetaliateOff)
 end)
 
-buttons.Set(151, function(user)
+button.Set(151, function(user)
 	user:SetInt(VbAutoRetaliate, AutoRetaliateOn)
 end)
 
-buttons.Set(152, function(user)
+button.Set(152, function(user)
 	user:SetInt(VbMoveSpeed, MoveSpeedRun)
 end)
 
-buttons.Set(153, function(user)
+button.Set(153, function(user)
 	user:SetInt(VbMoveSpeed, MoveSpeedWalk)
 end)
 
@@ -71,5 +71,5 @@ end
 
 for _, emote in pairs(emotes) do
 	animations[emote.button] = emote.animation
-	buttons.Set(emote.button, EmoteButton)
+	button.Set(emote.button, EmoteButton)
 end

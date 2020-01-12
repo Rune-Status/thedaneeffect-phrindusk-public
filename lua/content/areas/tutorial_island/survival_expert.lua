@@ -47,10 +47,10 @@ expert.Dialogue = {
 			"The Survival Guide gives you a @blu@Tinderbox@bla@ and a",
 			"@blu@Bronze Axe@bla@!",
 		},
-		continue = function(player)
+		callback = function(player)
 			local inventory = player:GetInventory()
-			inventory:Add(tools.tinderbox.item)
-			inventory:Add(tools.bronze_axe.item)
+			inventory:Add(tinderbox)
+			inventory:Add(bronze_axe)
 			player:SetInt(VbTutorialStep, 3)
 		end
 	},
@@ -64,7 +64,7 @@ expert.Dialogue = {
 		},
 		continue = function(player)
 			local inventory = player:GetInventory()
-			inventory:Add(tools.small_net.item)
+			inventory:Add(small_fishing_net)
 			player:SetInt(VbTutorialStep, 8)
 		end
 	},
@@ -76,17 +76,17 @@ expert.Dialogue = {
 				local inventory = player:GetInventory()
 
 				if step >= 4 then
-					if not inventory:Contains(tools.tinderbox.item) then
-						inventory:Add(tools.tinderbox.item)
+					if not inventory:Contains(tinderbox) then
+						inventory:Add(tinderbox)
 					end
 
-					if not inventory:Contains(tools.bronze_axe.item) then
-						inventory:Add(tools.bronze_axe.item)
+					if not inventory:Contains(bronze_axe) then
+						inventory:Add(bronze_axe)
 					end
 				end
 
-				if step >= 8 and not inventory:Contains(tools.small_net.item) then
-					inventory:Add(tools.small_net.item)
+				if step >= 8 and not inventory:Contains(small_fishing_net) then
+					inventory:Add(small_fishing_net)
 				end
 			end),
 

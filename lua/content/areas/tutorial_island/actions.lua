@@ -17,7 +17,7 @@ action.Create("tut_woodcutting", {
 				return
 			end
 
-			player:Animate(tools.bronze_axe.animation)
+			player:Animate(879)
 
 			if step == 4 then
 				player:SendMessage({
@@ -29,7 +29,7 @@ action.Create("tut_woodcutting", {
 			end
 		end
 
-		if not player:GetInventory():Contains(tools.bronze_axe.item) then
+		if not player:GetInventory():Contains(bronze_axe) then
 			player:Send("I need an axe to do that!")
 			player:Animate(-1)
 			task:Finish()
@@ -92,12 +92,12 @@ action.Create("tut_firemaking", {
 				})
 			end
 
-			player:Animate(tools.tinderbox.animation)
+			player:Animate(733)
 		end
 
 		local inventory = player:GetInventory()
 
-		if not inventory:Contains(tools.tinderbox.item) then
+		if not inventory:Contains(tinderbox) then
 			player:Send("I need a tinderbox to do that!")
 			player:Animate(-1)
 			task:Finish()
@@ -151,7 +151,7 @@ action.Create("tut_fishing", {
 				return
 			end
 
-			player:Animate(tools.small_net.animation)
+			player:Animate(621)
 
 			if step == 8 then
 				player:SendMessage({
@@ -165,7 +165,7 @@ action.Create("tut_fishing", {
 
 		local inventory = player:GetInventory()
 
-		if not inventory:Contains(tools.small_net.item) then
+		if not inventory:Contains(small_fishing_net) then
 			player:Send("I need a fishing net to do that!")
 			player:Animate(-1)
 			task:Finish()
@@ -173,7 +173,7 @@ action.Create("tut_fishing", {
 		end
 
 		if task.last then
-			inventory:Add(fish.raw_shrimps)
+			inventory:Add(raw_shrimps)
 			player:Animate(-1)
 
 			if player:GetInt(VbTutorialStep) == 8 then
@@ -201,22 +201,22 @@ action.Create("tut_cooking_shrimp", {
 
 		if task.first then
 			player:FaceObject(task.fire)
-			player:Animate(cooking.on_fire.animation)
+			player:Animate(897)
 		end
 
 		if task.last then
 			local step = player:GetInt(VbTutorialStep)
 
 			if step == 9 then
-				task.shrimp:Replace(fish.burnt_shrimps)
+				task.shrimp:Replace(burnt_shrimps)
 				player:SetInt(VbTutorialStep, 10)
 			elseif step == 10 then
-				task.shrimp:Replace(fish.shrimps)
+				task.shrimp:Replace(shrimps)
 				player:SetInt(VbTutorialStep, 11)
 			elseif Roll(2) then
-				task.shrimp:Replace(fish.shrimps)
+				task.shrimp:Replace(shrimps)
 			else
-				task.shrimp:Replace(fish.burnt_shrimps)
+				task.shrimp:Replace(burnt_shrimps)
 			end
 		end
 	end

@@ -34,6 +34,10 @@ function Player:OpenDialogue(dialogue, other, part)
 		return
 	end
 
+	if next.callback then
+		next.callback(self, other)
+	end
+
 	if next.options then
 		self:SendOptions(next.options)
 	elseif next.actor then

@@ -2,6 +2,12 @@ function OnItemOption(user, item, option)
 	local inventory = item.container
 
 	if inventory.id == Inventory then
+		local callback = items.GetOnOption(item.id, option)
+
+		if callback then
+			return callback(user, item, option)
+		end
+
 		if option == 1 then
 			if not item.equipable then
 				return
@@ -61,19 +67,61 @@ function OnItemOption(user, item, option)
 end
 
 function OnItemOnItem(player, a, b)
+	local callback, flip = items.GetOnItem(a.id, b.id)
+
+	if flip then
+		a, b = b, a
+	end
+
+	if callback then
+		callback(player, a, b)
+	end
 end
 
 function OnItemOnPlayer(player, item, other)
-	player:FaceEntity(other)
+	local callback = items.GetOnPlayer(item.id)
+
+	if callback then
+		callback(player, item, other)
+	else
+		player:Send("Nothing interesting happens.")
+	end
+
+	player:FaceTile(other.x, other.y)
 end
 
 function OnItemOnActor(player, item, actor)
-	player:FaceEntity(actor)
+	local callback = items.GetOnActor(item.id, actor.id)
+
+	if callback then
+		callback(player, item, actor)
+	else
+		player:Send("Nothing interesting happens.")
+	end
+
+	player:FaceTile(actor.x, actor.y)
 end
 
 function OnItemOnObject(player, item, object)
+	local callback = items.GetOnObject(item.id, object.id)
+
+	if callback then
+		callback(player, item, actor)
+	else
+		player:Send("Nothing interesting happens.")
+	end
+
 	player:FaceObject(object)
 end
 
 function OnItemOnGroundItem(player, item, grounditem)
+	local callback = items.GetOnGroundItem(item.id, grounditem.id)
+
+	if callback then
+		callback(player, item, grounditem)
+	else
+		player:Send("Nothing interesting happens.")
+	end
+
+	player:FaceTile(grounditem.x, grounditem.y)
 end

@@ -59,58 +59,58 @@ local function SelectOption(user, option)
 	end
 end
 
-buttons.Set(2461, function(user)
+button.Set(2461, function(user)
 	SelectOption(user, 1)
 end)
 
-buttons.Set(2462, function(user)
+button.Set(2462, function(user)
 	SelectOption(user, 2)
 end)
 
-buttons.Set(2471, function(user)
+button.Set(2471, function(user)
 	SelectOption(user, 1)
 end)
 
-buttons.Set(2472, function(user)
+button.Set(2472, function(user)
 	SelectOption(user, 2)
 end)
 
-buttons.Set(2473, function(user)
+button.Set(2473, function(user)
 	SelectOption(user, 3)
 end)
 
-buttons.Set(2482, function(user)
+button.Set(2482, function(user)
 	SelectOption(user, 1)
 end)
 
-buttons.Set(2483, function(user)
+button.Set(2483, function(user)
 	SelectOption(user, 2)
 end)
 
-buttons.Set(2484, function(user)
+button.Set(2484, function(user)
 	SelectOption(user, 3)
 end)
 
-buttons.Set(2485, function(user)
+button.Set(2485, function(user)
 	SelectOption(user, 4)
 end)
 
-buttons.Set(2494, function(user)
+button.Set(2494, function(user)
 	SelectOption(user, 1)
 end)
 
-buttons.Set(2495, function(user)
+button.Set(2495, function(user)
 	SelectOption(user, 2)
 end)
 
-buttons.Set(2496, function(user)
+button.Set(2496, function(user)
 	SelectOption(user, 3)
 end)
 
-buttons.Set(2497, function(user)
+button.Set(2497, function(user)
 	SelectOption(user, 4)
 end)
 
-buttons.Set(2498, function(user)
+button.Set(2498, function(user)
 	SelectOption(user, 5)
 end)
